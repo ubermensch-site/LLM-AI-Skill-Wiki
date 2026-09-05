@@ -1,8 +1,8 @@
 # LLM-AI-Skill-Wiki
 
-A curated master collection of AI agent "skills" (compatible with Claude Code, Codex, Cursor, Gemini CLI, and other agent harnesses) accumulated from forks of public repositories. Each folder below summarizes one skill collection, its capabilities, and links back to the original source.
+A curated master collection of AI agent "skills" (compatible with Claude Code, Codex, Cursor, Gemini CLI, and other agent harnesses) accumulated from forks of public repositories, plus vetted trusted/popular sources discovered directly on GitHub. Each folder below summarizes one skill collection, its capabilities, and links back to the original source.
 
-## Skills Index
+## Skills Index (from my forks)
 
 | # | Skill | Category | What it does | Source |
 |---|-------|----------|---------------|--------|
@@ -22,6 +22,23 @@ A curated master collection of AI agent "skills" (compatible with Claude Code, C
 | 14 | [ui-ux-pro-max-skill](ui-ux-pro-max-skill/) | UI/UX | AI-powered design-system generator: 67 UI styles, 96 color palettes, 57 font pairings, 100 industry-specific reasoning rules. | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
 | 15 | [agency-agents](agency-agents/) | Agent Personas | 142 specialist AI agent personas across 12 divisions (engineering, design, marketing, sales, testing, game dev, and more). | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) |
 
+## Trusted & Popular Additions (discovered on GitHub)
+
+These were not forked, but were researched directly on GitHub and selected for being official, backed by a real organization/well-known author, or a widely-referenced curated list — not anonymous AI-slop repos.
+
+| # | Skill / Collection | Category | What it does | Source | Why it's trusted |
+|---|---------------------|----------|---------------|--------|-------------------|
+| 16 | [anthropics-skills](anthropics-skills/) | Official Standard | Anthropic's own reference implementation of the Agent Skills standard (SKILL.md spec, template, example skills). | [anthropics/skills](https://github.com/anthropics/skills) | Official Anthropic repository. |
+| 17 | [superpowers](superpowers/) | Dev Methodology | Complete agentic software-development methodology — brainstorm → plan → TDD → subagent-driven execution → review. | [obra/superpowers](https://github.com/obra/superpowers) | Built by Jesse Vincent / Prime Radiant; listed on Anthropic's official Claude Code plugin marketplace. |
+| 18 | [awesome-claude-skills](awesome-claude-skills/) | Curated List | 1000+ production-ready Claude Skills across document processing, dev tools, data, marketing, and more. | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | Maintained by Composio, an established AI tooling company. |
+| 19 | [awesome-claude-code](awesome-claude-code/) | Curated List | Hand-picked collection of the best Claude Code skills, subagents, tooling, and plugins. | [hesreallyhim/awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) | One of the most-referenced Claude Code awesome-lists in the community. |
+| 20 | [awesome-agent-skills](awesome-agent-skills/) | Curated List | 1,497+ official Agent Skills contributed directly by real engineering teams (Vercel, Stripe, Cloudflare, Supabase, Notion, HashiCorp, and 25+ more). | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | Maintained by VoltAgent (agent framework company); explicitly filters out mass AI-generated skills. |
+| 21 | [scientific-agent-skills](scientific-agent-skills/) | Science / Research | 163 ready-to-use research skills turning an AI agent into an "AI Scientist" (genomics, cheminformatics, proteomics, clinical research, physics). | [K-Dense-AI/scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills) | Backed by K-Dense Inc., documented in a peer-reviewed arXiv paper, CI-tested with security scans. |
+| 22 | [agents-marketplace](agents-marketplace/) | Plugin Marketplace | 94 plugins, 202 agents, 183 skills, and 105 slash commands shipped natively to 5 different coding-agent harnesses. | [wshobson/agents](https://github.com/wshobson/agents) | Large, actively maintained marketplace with a formal 3-layer quality-evaluation framework. |
+| 23 | [skills-real-engineers](skills-real-engineers/) | Engineering | Daily-use engineering skills (spec grilling, TDD, code review, domain modeling) focused on real engineering over "vibe coding." | [mattpocock/skills](https://github.com/mattpocock/skills) | Authored by Matt Pocock, a well-known TypeScript educator with a large public following (~60k newsletter subscribers). |
+| 24 | [awesome-llm-apps](awesome-llm-apps/) | Curated List | 100+ open-source AI agents, agent skills, and RAG apps, hand-built and tested end-to-end. | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Trendshift-featured (#1 repo of the day), Apache-2.0, CI-gated skills, active weekly updates. |
+| 25 | [cybersecurity-skills](cybersecurity-skills/) | Cybersecurity | 818 structured cybersecurity skills across 34 domains, mapped to MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF, and MITRE F3. | [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | Apache-2.0, framework mappings verified against upstream MITRE data, featured in multiple other awesome-lists. ⚠️ Authorized/lawful use only. |
+
 ## How this wiki is organized
 
 Each skill has its own folder containing a `README.md` with:
@@ -30,16 +47,21 @@ Each skill has its own folder containing a `README.md` with:
 - The main install command (copied from the source)
 - A link back to the original repository
 
-This repo is a personal reference wiki curated from forked repos, not a redistribution package. For the latest version of any skill, always check the linked source repository — and give the original authors a star!
+This repo is a personal reference wiki curated from forked repos and vetted GitHub research, not a redistribution package. For the latest version of any skill, always check the linked source repository — and give the original authors a star!
 
 ## Categories at a glance
 
 - **SEO / GEO**: claude-seo, geo-seo-claude
 - **Marketing**: marketingskills
 - **Research**: last30days-skill
-- **Engineering workflow**: agent-skills, everything-claude-code
+- **Engineering workflow**: agent-skills, everything-claude-code, agents-marketplace, skills-real-engineers
 - **Coding style / guidelines**: andrej-karpathy-skills, caveman, ponytail
 - **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill
 - **Writing**: no-ai-slop
 - **Workspace architecture**: icm-architect
 - **Agent personas**: agency-agents
+- **Official standard / spec**: anthropics-skills
+- **Dev methodology**: superpowers
+- **Curated "awesome" lists**: awesome-claude-skills, awesome-claude-code, awesome-agent-skills, awesome-llm-apps
+- **Science / research**: scientific-agent-skills
+- **Cybersecurity**: cybersecurity-skills
