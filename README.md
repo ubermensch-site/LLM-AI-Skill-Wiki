@@ -38,6 +38,7 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 23 | [skills-real-engineers](skills-real-engineers/) | Engineering | Daily-use engineering skills (spec grilling, TDD, code review, domain modeling) focused on real engineering over "vibe coding." | [mattpocock/skills](https://github.com/mattpocock/skills) | Authored by Matt Pocock, a well-known TypeScript educator with a large public following (~60k newsletter subscribers). |
 | 24 | [awesome-llm-apps](awesome-llm-apps/) | Curated List | 100+ open-source AI agents, agent skills, and RAG apps, hand-built and tested end-to-end. | [Shubhamsaboo/awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) | Trendshift-featured (#1 repo of the day), Apache-2.0, CI-gated skills, active weekly updates. |
 | 25 | [cybersecurity-skills](cybersecurity-skills/) | Cybersecurity | 818 structured cybersecurity skills across 34 domains, mapped to MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF, and MITRE F3. | [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | Apache-2.0, framework mappings verified against upstream MITRE data, featured in multiple other awesome-lists. ⚠️ Authorized/lawful use only. |
+| 26 | [SkillCorpus](SkillCorpus/) | Skill Infrastructure | Builds curated, retrieval-ready corpora from scattered SKILL.md files, with retrieval + evaluation tooling. | [EverMind-AI/SkillCorpus](https://github.com/EverMind-AI/SkillCorpus) | Maintained by EverMind-AI with strong community traction; focused on infrastructure + evaluation (not a thin prompt dump). |
 
 ## How this wiki is organized
 
@@ -65,3 +66,4 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Curated "awesome" lists**: awesome-claude-skills, awesome-claude-code, awesome-agent-skills, awesome-llm-apps
 - **Science / research**: scientific-agent-skills
 - **Cybersecurity**: cybersecurity-skills
+- **Skill infrastructure**: SkillCorpus
