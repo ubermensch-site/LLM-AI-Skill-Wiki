@@ -8,7 +8,7 @@ A curated master collection of AI agent "skills" (compatible with Claude Code, C
 |---|-------|----------|---------------|--------|
 | 1 | [claude-seo](claude-seo/) | SEO | Full SEO audit skill — technical SEO, schema markup, GEO/AI search optimization, Google API integrations. 15+ sub-skills. | [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) |
 | 2 | [geo-seo-claude](geo-seo-claude/) | SEO / GEO | GEO-first AI search optimization skill with 13 sub-skills covering citability, crawlers, llms.txt, brand mentions. | [zubair-trabzada/geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) |
-| 3 | [marketingskills](marketingskills/) | Marketing | 44 marketing sub-skills spanning CRO, copywriting, SEO, ads, growth, and sales enablement. | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) |
+| 3 | [marketingskills](marketingskills/) | Marketing | 44 marketing sub-skills spanning CRO, copywriting, SEO, ads, growth, and sales enablement. | [coreyhaines31/marketingskills](https://github.com/mvanhorn/last30days-skill) |
 | 4 | [last30days-skill](last30days-skill/) | Research | AI-led search engine across Reddit, X, YouTube, TikTok, Polymarket, GitHub, HN — scored by real engagement, not editors. | [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill) |
 | 5 | [agent-skills](agent-skills/) | Engineering | 24 production-grade engineering lifecycle skills (spec → plan → build → test → review → ship). | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) |
 | 6 | [andrej-karpathy-skills](andrej-karpathy-skills/) | Coding Guidelines | Single CLAUDE.md skill encoding Karpathy's 4 principles to fix common LLM coding pitfalls. | [forrestchang/andrej-karpathy-skills](https://github.com/forrestchang/andrej-karpathy-skills) |
@@ -40,6 +40,7 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 25 | [cybersecurity-skills](cybersecurity-skills/) | Cybersecurity | 818 structured cybersecurity skills across 34 domains, mapped to MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF, and MITRE F3. | [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | Apache-2.0, framework mappings verified against upstream MITRE data, featured in multiple other awesome-lists. ⚠️ Authorized/lawful use only. |
 | 26 | [SkillCorpus](SkillCorpus/) | Skill Infrastructure | Builds curated, retrieval-ready corpora from scattered SKILL.md files, with retrieval + evaluation tooling. | [EverMind-AI/SkillCorpus](https://github.com/EverMind-AI/SkillCorpus) | Maintained by EverMind-AI with strong community traction; focused on infrastructure + evaluation (not a thin prompt dump). |
 | 27 | [dream-loop](dream-loop/) | Visual Iteration / 3D | Iterative “dream target screenshot” loop: generate target → build → critic compares screenshots → refine until it matches. | [achimala/dream-loop](https://github.com/achimala/dream-loop) | Clear SKILL.md workflow; MIT-licensed; strong traction for a new repo. |
+| 28 | [forge](forge/) | Agent Runtime | Open-source runtime for the Agent Skills (SKILL.md) standard: compile skills into a secure, deployable agent with egress controls, secrets, audit logs. | [initializ/forge](https://github.com/initializ/forge) | Security-focused runtime + substantive docs; aligns explicitly with the Agent Skills standard. |
 
 ## How this wiki is organized
 
@@ -69,3 +70,4 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Cybersecurity**: cybersecurity-skills
 - **Skill infrastructure**: SkillCorpus
 - **Visual iteration / 3D**: dream-loop
+- **Agent runtime**: forge
