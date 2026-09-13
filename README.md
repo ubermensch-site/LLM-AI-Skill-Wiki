@@ -41,6 +41,7 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 26 | [SkillCorpus](SkillCorpus/) | Skill Infrastructure | Builds curated, retrieval-ready corpora from scattered SKILL.md files, with retrieval + evaluation tooling. | [EverMind-AI/SkillCorpus](https://github.com/EverMind-AI/SkillCorpus) | Maintained by EverMind-AI with strong community traction; focused on infrastructure + evaluation (not a thin prompt dump). |
 | 27 | [dream-loop](dream-loop/) | Visual Iteration / 3D | Iterative “dream target screenshot” loop: generate target → build → critic compares screenshots → refine until it matches. | [achimala/dream-loop](https://github.com/achimala/dream-loop) | Clear SKILL.md workflow; MIT-licensed; strong traction for a new repo. |
 | 28 | [forge](forge/) | Agent Runtime | Open-source runtime for the Agent Skills (SKILL.md) standard: compile skills into a secure, deployable agent with egress controls, secrets, audit logs. | [initializ/forge](https://github.com/initializ/forge) | Security-focused runtime + substantive docs; aligns explicitly with the Agent Skills standard. |
+| 29 | [awesome-copilot](awesome-copilot/) | Curated List | Community-contributed instructions, agents, skills, and configurations for GitHub Copilot. | [github/awesome-copilot](https://github.com/github/awesome-copilot) | Official GitHub repository with large community traction. |
 
 ## How this wiki is organized
 
@@ -65,7 +66,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Agent personas**: agency-agents
 - **Official standard / spec**: anthropics-skills
 - **Dev methodology**: superpowers
-- **Curated "awesome" lists**: awesome-claude-skills, awesome-claude-code, awesome-agent-skills, awesome-llm-apps
+- **Curated "awesome" lists**: awesome-claude-skills, awesome-claude-code, awesome-agent-skills, awesome-llm-apps, awesome-copilot
 - **Science / research**: scientific-agent-skills
 - **Cybersecurity**: cybersecurity-skills
 - **Skill infrastructure**: SkillCorpus
