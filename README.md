@@ -42,6 +42,7 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 27 | [dream-loop](dream-loop/) | Visual Iteration / 3D | Iterative “dream target screenshot” loop: generate target → build → critic compares screenshots → refine until it matches. | [achimala/dream-loop](https://github.com/achimala/dream-loop) | Clear SKILL.md workflow; MIT-licensed; strong traction for a new repo. |
 | 28 | [forge](forge/) | Agent Runtime | Open-source runtime for the Agent Skills (SKILL.md) standard: compile skills into a secure, deployable agent with egress controls, secrets, audit logs. | [initializ/forge](https://github.com/initializ/forge) | Security-focused runtime + substantive docs; aligns explicitly with the Agent Skills standard. |
 | 29 | [awesome-copilot](awesome-copilot/) | Curated List | Community-contributed instructions, agents, skills, and configurations for GitHub Copilot. | [github/awesome-copilot](https://github.com/github/awesome-copilot) | Official GitHub repository with large community traction. |
+| 30 | [dsh-hub-cli](dsh-hub-cli/) | Agent / Harness Tooling | Skill + CLI for packaging and sharing DeepSeek Harness setups as versioned presets with plan → review → apply and safe rollback. | [pax-beehive/dsh-hub-cli](https://github.com/pax-beehive/dsh-hub-cli) | Explicit security model (plans, hashing, staged apply, secret-safety); well-documented and actively maintained. |
 
 ## How this wiki is organized
 
@@ -72,3 +73,4 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Skill infrastructure**: SkillCorpus
 - **Visual iteration / 3D**: dream-loop
 - **Agent runtime**: forge
+- **Agent / Harness tooling**: dsh-hub-cli
