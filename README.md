@@ -43,6 +43,7 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 28 | [forge](forge/) | Agent Runtime | Open-source runtime for the Agent Skills (SKILL.md) standard: compile skills into a secure, deployable agent with egress controls, secrets, audit logs. | [initializ/forge](https://github.com/initializ/forge) | Security-focused runtime + substantive docs; aligns explicitly with the Agent Skills standard. |
 | 29 | [awesome-copilot](awesome-copilot/) | Curated List | Community-contributed instructions, agents, skills, and configurations for GitHub Copilot. | [github/awesome-copilot](https://github.com/github/awesome-copilot) | Official GitHub repository with large community traction. |
 | 30 | [dsh-hub-cli](dsh-hub-cli/) | Agent / Harness Tooling | Skill + CLI for packaging and sharing DeepSeek Harness setups as versioned presets with plan → review → apply and safe rollback. | [pax-beehive/dsh-hub-cli](https://github.com/pax-beehive/dsh-hub-cli) | Explicit security model (plans, hashing, staged apply, secret-safety); well-documented and actively maintained. |
+| 31 | [ux-ui-agent-skills](ux-ui-agent-skills/) | Design & UI/UX | Design-system + accessibility skillset: DTCG tokens, component scaffolding, WCAG 2.2 guidance, and objective quality gates. | [plugin87/ux-ui-agent-skills](https://github.com/plugin87/ux-ui-agent-skills) | Substantive docs, clear focus on production UI systems + accessibility, strong community traction (~1k+ stars). |
 
 ## How this wiki is organized
 
@@ -61,7 +62,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Research**: last30days-skill
 - **Engineering workflow**: agent-skills, everything-claude-code, agents-marketplace, skills-real-engineers
 - **Coding style / guidelines**: andrej-karpathy-skills, caveman, ponytail
-- **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill
+- **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill, ux-ui-agent-skills
 - **Writing**: no-ai-slop
 - **Workspace architecture**: icm-architect
 - **Agent personas**: agency-agents
