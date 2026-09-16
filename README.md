@@ -27,7 +27,7 @@ A curated master collection of AI agent "skills" (compatible with Claude Code, C
 These were not forked, but were researched directly on GitHub and selected for being official, backed by a real organization/well-known author, or a widely-referenced curated list — not anonymous AI-slop repos.
 
 | # | Skill / Collection | Category | What it does | Source | Why it's trusted |
-|---|---------------------|----------|---------------|--------|-------------------|
+|---|---------------------|----------|-------------|--------|-------------------|
 | 16 | [anthropics-skills](anthropics-skills/) | Official Standard | Anthropic's own reference implementation of the Agent Skills standard (SKILL.md spec, template, example skills). | [anthropics/skills](https://github.com/anthropics/skills) | Official Anthropic repository. |
 | 17 | [superpowers](superpowers/) | Dev Methodology | Complete agentic software-development methodology — brainstorm → plan → TDD → subagent-driven execution → review. | [obra/superpowers](https://github.com/obra/superpowers) | Built by Jesse Vincent / Prime Radiant; listed on Anthropic's official Claude Code plugin marketplace. |
 | 18 | [awesome-claude-skills](awesome-claude-skills/) | Curated List | 1000+ production-ready Claude Skills across document processing, dev tools, data, marketing, and more. | [ComposioHQ/awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills) | Maintained by Composio, an established AI tooling company. |
@@ -44,6 +44,11 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 29 | [awesome-copilot](awesome-copilot/) | Curated List | Community-contributed instructions, agents, skills, and configurations for GitHub Copilot. | [github/awesome-copilot](https://github.com/github/awesome-copilot) | Official GitHub repository with large community traction. |
 | 30 | [dsh-hub-cli](dsh-hub-cli/) | Agent / Harness Tooling | Skill + CLI for packaging and sharing DeepSeek Harness setups as versioned presets with plan → review → apply and safe rollback. | [pax-beehive/dsh-hub-cli](https://github.com/pax-beehive/dsh-hub-cli) | Explicit security model (plans, hashing, staged apply, secret-safety); well-documented and actively maintained. |
 | 31 | [ux-ui-agent-skills](ux-ui-agent-skills/) | Design & UI/UX | Design-system + accessibility skillset: DTCG tokens, component scaffolding, WCAG 2.2 guidance, and objective quality gates. | [plugin87/ux-ui-agent-skills](https://github.com/plugin87/ux-ui-agent-skills) | Substantive docs, clear focus on production UI systems + accessibility, strong community traction (~1k+ stars). |
+| 32 | [microsoft-skills](microsoft-skills/) | Official Azure / Agent Skills | Microsoft's official collection of 175 Agent Skills, Foundry/Azure SDK guidance, plugins, agents, prompts, and MCP configurations. | [microsoft/skills](https://github.com/microsoft/skills) | Official Microsoft repository; MIT-licensed, CI-tested, and backed by a public skill-evaluation harness. |
+| 33 | [agnix](agnix/) | Agent Quality | Cross-platform linter, LSP, and autofixer for `SKILL.md`, `CLAUDE.md`, `AGENTS.md`, hooks, and MCP configurations across major agent tools. | [agent-sh/agnix](https://github.com/agent-sh/agnix) | MIT/Apache-2.0, 400+ documented rules, CI, published packages, and maintained editor integrations. |
+| 34 | [styleseed](styleseed/) | Design & UI/UX | Design-method engine with 23 agent skills, 74 craft rules, design locks, brand recipes, semantic palettes, and code/rendered quality gates. | [bitjaru/styleseed](https://github.com/bitjaru/styleseed) | MIT-licensed, actively documented, benchmarked with explicit evidence boundaries, and installable through `npx skills`. |
+| 35 | [clawbio](clawbio/) | Science / Research | Bioinformatics-native library of 97 local-first skills for genomics, pharmacogenomics, research workflows, and reproducible scientific analysis. | [ClawBio/ClawBio](https://github.com/ClawBio/ClawBio) | MIT-licensed with CI, benchmark validation, data-handling guidance, and a Zenodo DOI. |
+| 36 | [genoffice](genoffice/) | Office / Agent Tooling | Open-source Office suite plus portable agent skill, CLI, and MCP server for native Word, Excel, PowerPoint, PDF, Markdown, and HTML workflows. | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | Apache-2.0, substantial public implementation, documented privacy/security posture, and validation-oriented local workflows. |
 
 ## How this wiki is organized
 
@@ -62,16 +67,22 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Research**: last30days-skill
 - **Engineering workflow**: agent-skills, everything-claude-code, agents-marketplace, skills-real-engineers
 - **Coding style / guidelines**: andrej-karpathy-skills, caveman, ponytail
-- **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill, ux-ui-agent-skills
+- **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill, ux-ui-agent-skills, styleseed
 - **Writing**: no-ai-slop
 - **Workspace architecture**: icm-architect
 - **Agent personas**: agency-agents
-- **Official standard / spec**: anthropics-skills
+- **Official standard / spec**: anthropics-skills, microsoft-skills
 - **Dev methodology**: superpowers
 - **Curated "awesome" lists**: awesome-claude-skills, awesome-claude-code, awesome-agent-skills, awesome-llm-apps, awesome-copilot
-- **Science / research**: scientific-agent-skills
+- **Science / research**: scientific-agent-skills, clawbio
 - **Cybersecurity**: cybersecurity-skills
 - **Skill infrastructure**: SkillCorpus
 - **Visual iteration / 3D**: dream-loop
 - **Agent runtime**: forge
+- **Agent quality / configuration**: agnix
 - **Agent / Harness tooling**: dsh-hub-cli
+- **Office / Agent tooling**: genoffice
+
+## How to install/use
+
+Most skill collections can be installed through their documented source-repository instructions. Prefer the original repository and latest release over copying from this wiki.
