@@ -49,6 +49,7 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 34 | [styleseed](styleseed/) | Design & UI/UX | Design-method engine with 23 agent skills, 74 craft rules, design locks, brand recipes, semantic palettes, and code/rendered quality gates. | [bitjaru/styleseed](https://github.com/bitjaru/styleseed) | MIT-licensed, actively documented, benchmarked with explicit evidence boundaries, and installable through `npx skills`. |
 | 35 | [clawbio](clawbio/) | Science / Research | Bioinformatics-native library of 97 local-first skills for genomics, pharmacogenomics, research workflows, and reproducible scientific analysis. | [ClawBio/ClawBio](https://github.com/ClawBio/ClawBio) | MIT-licensed with CI, benchmark validation, data-handling guidance, and a Zenodo DOI. |
 | 36 | [genoffice](genoffice/) | Office / Agent Tooling | Open-source Office suite plus portable agent skill, CLI, and MCP server for native Word, Excel, PowerPoint, PDF, Markdown, and HTML workflows. | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | Apache-2.0, substantial public implementation, documented privacy/security posture, and validation-oriented local workflows. |
+| 37 | [nvidia-skillevaluator](nvidia-skillevaluator/) | Agent Evaluation | Multi-tier framework for validating, deduplicating, and live-evaluating Agent Skills and other AI agent artifacts. | [NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator) | Official NVIDIA repository; Apache-2.0 licensed with documented governance, security practices, CI workflows, and substantive implementation. |
 
 ## How this wiki is organized
 
@@ -82,6 +83,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Agent quality / configuration**: agnix
 - **Agent / Harness tooling**: dsh-hub-cli
 - **Office / Agent tooling**: genoffice
+- **Agent evaluation / quality**: nvidia-skillevaluator
 
 ## How to install/use
 
