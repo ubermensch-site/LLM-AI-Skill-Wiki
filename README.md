@@ -51,6 +51,7 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 36 | [genoffice](genoffice/) | Office / Agent Tooling | Open-source Office suite plus portable agent skill, CLI, and MCP server for native Word, Excel, PowerPoint, PDF, Markdown, and HTML workflows. | [genspark-ai/genoffice](https://github.com/genspark-ai/genoffice) | Apache-2.0, substantial public implementation, documented privacy/security posture, and validation-oriented local workflows. |
 | 37 | [nvidia-skillevaluator](nvidia-skillevaluator/) | Agent Evaluation | Multi-tier framework for validating, deduplicating, and live-evaluating Agent Skills and other AI agent artifacts. | [NVIDIA/SkillEvaluator](https://github.com/NVIDIA/SkillEvaluator) | Official NVIDIA repository; Apache-2.0 licensed with documented governance, security practices, CI workflows, and substantive implementation. |
 | 38 | [daymade-claude-code-skills](daymade-claude-code-skills/) | Marketplace | Large, production-focused Claude Code skills marketplace with a hardened `skill-creator` meta-skill and bundled suites. | [daymade/claude-code-skills](https://github.com/daymade/claude-code-skills) | High community traction and substantive, actively maintained docs/workflows. |
+| 39 | [openrig](openrig/) | Agent Harness / Orchestration | Open-source multi-agent harness for running persistent teams of Claude Code + Codex (and other) agents with a CLI + TUI + daemon. | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | Substantive implementation + docs; strong community traction and active maintenance. |
 
 ## How this wiki is organized
 
@@ -81,6 +82,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Skill infrastructure**: SkillCorpus
 - **Visual iteration / 3D**: dream-loop
 - **Agent runtime**: forge
+- **Agent harness / orchestration**: openrig
 - **Agent quality / configuration**: agnix
 - **Agent / Harness tooling**: dsh-hub-cli
 - **Marketplace**: daymade-claude-code-skills
