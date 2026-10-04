@@ -53,6 +53,7 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 38 | [daymade-claude-code-skills](daymade-claude-code-skills/) | Marketplace | Large, production-focused Claude Code skills marketplace with a hardened `skill-creator` meta-skill and bundled suites. | [daymade/claude-code-skills](https://github.com/daymade/claude-code-skills) | High community traction and substantive, actively maintained docs/workflows. |
 | 39 | [openrig](openrig/) | Agent Harness / Orchestration | Open-source multi-agent harness for running persistent teams of Claude Code + Codex (and other) agents with a CLI + TUI + daemon. | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | Substantive implementation + docs; strong community traction and active maintenance. |
 | 40 | [SkillOpt](SkillOpt/) | Skill Optimization / Training | Trains reusable natural-language skills for frozen LLM agents via trajectory-driven edits, validation-gated updates, and deployable `best_skill.md` artifacts. | [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt) | Official Microsoft repository with large community traction. |
+| 41 | [dotnet-skills](dotnet-skills/) | .NET Development | Official portable skills and plugins for .NET development, diagnostics, testing, modernization, upgrades, data, web, UI, and AI workflows. | [dotnet/skills](https://github.com/dotnet/skills) | Official .NET team repository with tests, security policy, evaluation dashboard, active maintenance, and strong community traction. |
 
 ## How this wiki is organized
 
@@ -90,6 +91,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Office / Agent tooling**: genoffice
 - **Agent evaluation / quality**: nvidia-skillevaluator
 - **Skill optimization / training**: SkillOpt
+- **.NET development**: dotnet-skills
 
 ## How to install/use
 
