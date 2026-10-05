@@ -54,6 +54,7 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 39 | [openrig](openrig/) | Agent Harness / Orchestration | Open-source multi-agent harness for running persistent teams of Claude Code + Codex (and other) agents with a CLI + TUI + daemon. | [mvschwarz/openrig](https://github.com/mvschwarz/openrig) | Substantive implementation + docs; strong community traction and active maintenance. |
 | 40 | [SkillOpt](SkillOpt/) | Skill Optimization / Training | Trains reusable natural-language skills for frozen LLM agents via trajectory-driven edits, validation-gated updates, and deployable `best_skill.md` artifacts. | [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt) | Official Microsoft repository with large community traction. |
 | 41 | [dotnet-skills](dotnet-skills/) | .NET Development | Official portable skills and plugins for .NET development, diagnostics, testing, modernization, upgrades, data, web, UI, and AI workflows. | [dotnet/skills](https://github.com/dotnet/skills) | Official .NET team repository with tests, security policy, evaluation dashboard, active maintenance, and strong community traction. |
+| 42 | [nvidia-skillspector](nvidia-skillspector/) | Agent Security | Security scanner for Agent Skills that detects malicious patterns, vulnerable dependencies, prompt injection, data exfiltration, unsafe MCP configurations, and supply-chain risks. | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | Official NVIDIA repository; Apache-2.0 licensed, extensively tested, actively maintained, and part of NVIDIA's Verified Skills pipeline. |
 
 ## How this wiki is organized
 
@@ -90,6 +91,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Marketplace**: daymade-claude-code-skills
 - **Office / Agent tooling**: genoffice
 - **Agent evaluation / quality**: nvidia-skillevaluator
+- **Agent security**: nvidia-skillspector
 - **Skill optimization / training**: SkillOpt
 - **.NET development**: dotnet-skills
 
