@@ -20,7 +20,7 @@ A curated master collection of AI agent "skills" (compatible with Claude Code, C
 | 12 | [no-ai-slop](no-ai-slop/) | Writing | Removes 20+ AI-slop writing patterns (binary contrasts, throat-clearing, fake-profound endings) while preserving personal voice. | [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) |
 | 13 | [ponytail](ponytail/) | Code Minimalism | Anti-over-engineering skill — ~54% less code by following a "does this need to exist" decision ladder. 6 sub-skills. | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) |
 | 14 | [ui-ux-pro-max-skill](ui-ux-pro-max-skill/) | UI/UX | AI-powered design-system generator: 67 UI styles, 96 color palettes, 57 font pairings, 100 industry-specific reasoning rules. | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
-| 15 | [agency-agents](agency-agents/) | Agent Personas | 142 specialist AI agent personas across 12 divisions (engineering, design, marketing, sales, testing, game dev, and more). | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agents) |
+| 15 | [agency-agents](agency-agents/) | Agent Personas | 142 specialist AI agent personas across 12 divisions (engineering, design, marketing, sales, testing, game dev, and more). | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agency-agents) |
 
 ## Trusted & Popular Additions (discovered on GitHub)
 
@@ -55,6 +55,7 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 40 | [SkillOpt](SkillOpt/) | Skill Optimization / Training | Trains reusable natural-language skills for frozen LLM agents via trajectory-driven edits, validation-gated updates, and deployable `best_skill.md` artifacts. | [microsoft/SkillOpt](https://github.com/microsoft/SkillOpt) | Official Microsoft repository with large community traction. |
 | 41 | [dotnet-skills](dotnet-skills/) | .NET Development | Official portable skills and plugins for .NET development, diagnostics, testing, modernization, upgrades, data, web, UI, and AI workflows. | [dotnet/skills](https://github.com/dotnet/skills) | Official .NET team repository with tests, security policy, evaluation dashboard, active maintenance, and strong community traction. |
 | 42 | [nvidia-skillspector](nvidia-skillspector/) | Agent Security | Security scanner for Agent Skills that detects malicious patterns, vulnerable dependencies, prompt injection, data exfiltration, unsafe MCP configurations, and supply-chain risks. | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | Official NVIDIA repository; Apache-2.0 licensed, extensively tested, actively maintained, and part of NVIDIA's Verified Skills pipeline. |
+| 43 | [answer-me-with-html](answer-me-with-html/) | Output / Visualization | Token-efficient skill + bundled CLI that renders a short Markdown draft into a polished, offline one-page HTML answer (and optional explainer-video pages). | [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) | Substantive implementation (not promptware), MIT-licensed, CI-tested, and strong community traction. |
 
 ## How this wiki is organized
 
@@ -94,6 +95,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Agent security**: nvidia-skillspector
 - **Skill optimization / training**: SkillOpt
 - **.NET development**: dotnet-skills
+- **Output / visualization**: answer-me-with-html
 
 ## How to install/use
 
