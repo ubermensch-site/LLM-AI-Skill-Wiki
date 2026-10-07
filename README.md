@@ -57,6 +57,9 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 42 | [nvidia-skillspector](nvidia-skillspector/) | Agent Security | Security scanner for Agent Skills that detects malicious patterns, vulnerable dependencies, prompt injection, data exfiltration, unsafe MCP configurations, and supply-chain risks. | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | Official NVIDIA repository; Apache-2.0 licensed, extensively tested, actively maintained, and part of NVIDIA's Verified Skills pipeline. |
 | 43 | [answer-me-with-html](answer-me-with-html/) | Output / Visualization | Token-efficient skill + bundled CLI that renders a short Markdown draft into a polished, offline one-page HTML answer (and optional explainer-video pages). | [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) | Substantive implementation (not promptware), MIT-licensed, CI-tested, and strong community traction. |
 
+| 44 | [vercel-skills-cli](vercel-skills-cli/) | Skill Infrastructure | Official CLI to discover, install, use, update, and remove SKILL.md skills across major coding agents. | [vercel-labs/skills](https://github.com/vercel-labs/skills) | Official Vercel Labs repository; MIT-licensed, published npm CLI, substantive TypeScript implementation, tests, and strong community traction. |
+| 45 | [power-platform-skills](power-platform-skills/) | Power Platform Development | Official skills/plugins for Power Pages, Power Apps, Power Automate, codeful MCP tools, and an external Dataverse integration. | [microsoft/power-platform-skills](https://github.com/microsoft/power-platform-skills) | Official Microsoft marketplace; MIT-licensed with substantive service-specific plugins, documentation, validators, recent tested fixes, and community adoption. |
+
 ## How this wiki is organized
 
 Each skill has its own folder containing a `README.md` with:
@@ -83,7 +86,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Curated "awesome" lists**: awesome-claude-skills, awesome-claude-code, awesome-agent-skills, awesome-llm-apps, awesome-copilot
 - **Science / research**: scientific-agent-skills, clawbio
 - **Cybersecurity**: cybersecurity-skills
-- **Skill infrastructure**: SkillCorpus
+- **Skill infrastructure**: SkillCorpus, vercel-skills-cli
 - **Visual iteration / 3D**: dream-loop
 - **Agent runtime**: forge
 - **Agent harness / orchestration**: openrig
@@ -95,6 +98,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Agent security**: nvidia-skillspector
 - **Skill optimization / training**: SkillOpt
 - **.NET development**: dotnet-skills
+- **Power Platform development**: power-platform-skills
 - **Output / visualization**: answer-me-with-html
 
 ## How to install/use
