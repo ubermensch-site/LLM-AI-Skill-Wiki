@@ -56,9 +56,10 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 41 | [dotnet-skills](dotnet-skills/) | .NET Development | Official portable skills and plugins for .NET development, diagnostics, testing, modernization, upgrades, data, web, UI, and AI workflows. | [dotnet/skills](https://github.com/dotnet/skills) | Official .NET team repository with tests, security policy, evaluation dashboard, active maintenance, and strong community traction. |
 | 42 | [nvidia-skillspector](nvidia-skillspector/) | Agent Security | Security scanner for Agent Skills that detects malicious patterns, vulnerable dependencies, prompt injection, data exfiltration, unsafe MCP configurations, and supply-chain risks. | [NVIDIA/SkillSpector](https://github.com/NVIDIA/SkillSpector) | Official NVIDIA repository; Apache-2.0 licensed, extensively tested, actively maintained, and part of NVIDIA's Verified Skills pipeline. |
 | 43 | [answer-me-with-html](answer-me-with-html/) | Output / Visualization | Token-efficient skill + bundled CLI that renders a short Markdown draft into a polished, offline one-page HTML answer (and optional explainer-video pages). | [QingYunA/answer-me-with-html](https://github.com/QingYunA/answer-me-with-html) | Substantive implementation (not promptware), MIT-licensed, CI-tested, and strong community traction. |
-
 | 44 | [vercel-skills-cli](vercel-skills-cli/) | Skill Infrastructure | Official CLI to discover, install, use, update, and remove SKILL.md skills across major coding agents. | [vercel-labs/skills](https://github.com/vercel-labs/skills) | Official Vercel Labs repository; MIT-licensed, published npm CLI, substantive TypeScript implementation, tests, and strong community traction. |
 | 45 | [power-platform-skills](power-platform-skills/) | Power Platform Development | Official skills/plugins for Power Pages, Power Apps, Power Automate, codeful MCP tools, and an external Dataverse integration. | [microsoft/power-platform-skills](https://github.com/microsoft/power-platform-skills) | Official Microsoft marketplace; MIT-licensed with substantive service-specific plugins, documentation, validators, recent tested fixes, and community adoption. |
+| 46 | [lark-cli-skills](lark-cli-skills/) | Office / Agent Tooling | Official Lark/Feishu CLI and SKILL.md collection for calendars, messaging, documents, spreadsheets, Base, tasks, mail, and meeting workflows. | [larksuite/cli](https://github.com/larksuite/cli) | Official Lark team repository; MIT-licensed, substantive Go implementation and tests, documented permission/safety gates, strong adoption, and recent tested improvements. |
+| 47 | [claude-plugins-official](claude-plugins-official/) | Plugin Marketplace | Anthropic-managed directory distributing skills, agents, hooks, commands, MCP integrations, and language-server plugins for Claude Code. | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Official Anthropic internal plugins plus approval-gated partner/community entries; substantive skills, strong adoption, and active security maintenance. Review each plugin independently. |
 
 ## How this wiki is organized
 
@@ -92,8 +93,8 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Agent harness / orchestration**: openrig
 - **Agent quality / configuration**: agnix
 - **Agent / Harness tooling**: dsh-hub-cli
-- **Marketplace**: daymade-claude-code-skills
-- **Office / Agent tooling**: genoffice
+- **Marketplace**: daymade-claude-code-skills, claude-plugins-official
+- **Office / Agent tooling**: genoffice, lark-cli-skills
 - **Agent evaluation / quality**: nvidia-skillevaluator
 - **Agent security**: nvidia-skillspector
 - **Skill optimization / training**: SkillOpt
