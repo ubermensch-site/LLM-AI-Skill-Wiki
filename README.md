@@ -60,6 +60,7 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 45 | [power-platform-skills](power-platform-skills/) | Power Platform Development | Official skills/plugins for Power Pages, Power Apps, Power Automate, codeful MCP tools, and an external Dataverse integration. | [microsoft/power-platform-skills](https://github.com/microsoft/power-platform-skills) | Official Microsoft marketplace; MIT-licensed with substantive service-specific plugins, documentation, validators, recent tested fixes, and community adoption. |
 | 46 | [lark-cli-skills](lark-cli-skills/) | Office / Agent Tooling | Official Lark/Feishu CLI and SKILL.md collection for calendars, messaging, documents, spreadsheets, Base, tasks, mail, and meeting workflows. | [larksuite/cli](https://github.com/larksuite/cli) | Official Lark team repository; MIT-licensed, substantive Go implementation and tests, documented permission/safety gates, strong adoption, and recent tested improvements. |
 | 47 | [claude-plugins-official](claude-plugins-official/) | Plugin Marketplace | Anthropic-managed directory distributing skills, agents, hooks, commands, MCP integrations, and language-server plugins for Claude Code. | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Official Anthropic internal plugins plus approval-gated partner/community entries; substantive skills, strong adoption, and active security maintenance. Review each plugin independently. |
+| 48 | [onetake](onetake/) | Video / Motion | Agent Skill for generating continuous-take motion launch films & feature demos, with continuity verification tooling. | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) | Substantive implementation (motion library + rendering + verification), documented method, and shipped example films. |
 
 ## How this wiki is organized
 
@@ -101,6 +102,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **.NET development**: dotnet-skills
 - **Power Platform development**: power-platform-skills
 - **Output / visualization**: answer-me-with-html
+- **Video / Motion**: onetake
 
 ## How to install/use
 
