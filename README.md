@@ -61,6 +61,7 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 46 | [lark-cli-skills](lark-cli-skills/) | Office / Agent Tooling | Official Lark/Feishu CLI and SKILL.md collection for calendars, messaging, documents, spreadsheets, Base, tasks, mail, and meeting workflows. | [larksuite/cli](https://github.com/larksuite/cli) | Official Lark team repository; MIT-licensed, substantive Go implementation and tests, documented permission/safety gates, strong adoption, and recent tested improvements. |
 | 47 | [claude-plugins-official](claude-plugins-official/) | Plugin Marketplace | Anthropic-managed directory distributing skills, agents, hooks, commands, MCP integrations, and language-server plugins for Claude Code. | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Official Anthropic internal plugins plus approval-gated partner/community entries; substantive skills, strong adoption, and active security maintenance. Review each plugin independently. |
 | 48 | [onetake](onetake/) | Video / Motion | Agent Skill for generating continuous-take motion launch films & feature demos, with continuity verification tooling. | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) | Substantive implementation (motion library + rendering + verification), documented method, and shipped example films. |
+| 49 | [hol-guard](hol-guard/) | Agent Security | Runtime “antivirus” / guardrails for AI agents: blocks risky tools, secrets access, prompt-injection and supply-chain threats; designed for auditability. | [hashgraph-online/hol-guard](https://github.com/hashgraph-online/hol-guard) | Security-focused scope, active maintenance, and real community traction. |
 
 ## How this wiki is organized
 
@@ -97,7 +98,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Marketplace**: daymade-claude-code-skills, claude-plugins-official
 - **Office / Agent tooling**: genoffice, lark-cli-skills
 - **Agent evaluation / quality**: nvidia-skillevaluator
-- **Agent security**: nvidia-skillspector
+- **Agent security**: nvidia-skillspector, hol-guard
 - **Skill optimization / training**: SkillOpt
 - **.NET development**: dotnet-skills
 - **Power Platform development**: power-platform-skills
