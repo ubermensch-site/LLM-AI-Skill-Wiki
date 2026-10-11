@@ -62,6 +62,7 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 47 | [claude-plugins-official](claude-plugins-official/) | Plugin Marketplace | Anthropic-managed directory distributing skills, agents, hooks, commands, MCP integrations, and language-server plugins for Claude Code. | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Official Anthropic internal plugins plus approval-gated partner/community entries; substantive skills, strong adoption, and active security maintenance. Review each plugin independently. |
 | 48 | [onetake](onetake/) | Video / Motion | Agent Skill for generating continuous-take motion launch films & feature demos, with continuity verification tooling. | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) | Substantive implementation (motion library + rendering + verification), documented method, and shipped example films. |
 | 49 | [hol-guard](hol-guard/) | Agent Security | Runtime “antivirus” / guardrails for AI agents: blocks risky tools, secrets access, prompt-injection and supply-chain threats; designed for auditability. | [hashgraph-online/hol-guard](https://github.com/hashgraph-online/hol-guard) | Security-focused scope, active maintenance, and real community traction. |
+| 50 | [bitbucket-cli](bitbucket-cli/) | DevOps / SCM | Standalone Bitbucket CLI (Cloud + Data Center) with an included Agent Skills (SKILL.md) bundle for Claude Code/Codex/Cursor/etc. | [avivsinai/bitbucket-cli](https://github.com/avivsinai/bitbucket-cli) | Substantive tool + documented skill bundle; strong community traction and security posture. |
 
 ## How this wiki is organized
 
@@ -94,7 +95,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Agent runtime**: forge
 - **Agent harness / orchestration**: openrig
 - **Agent quality / configuration**: agnix
-- **Agent / Harness tooling**: dsh-hub-cli
+- **Agent / Harness tooling**: dsh-hub-cli, bitbucket-cli
 - **Marketplace**: daymade-claude-code-skills, claude-plugins-official
 - **Office / Agent tooling**: genoffice, lark-cli-skills
 - **Agent evaluation / quality**: nvidia-skillevaluator
