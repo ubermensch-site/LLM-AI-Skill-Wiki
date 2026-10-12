@@ -61,8 +61,9 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 46 | [lark-cli-skills](lark-cli-skills/) | Office / Agent Tooling | Official Lark/Feishu CLI and SKILL.md collection for calendars, messaging, documents, spreadsheets, Base, tasks, mail, and meeting workflows. | [larksuite/cli](https://github.com/larksuite/cli) | Official Lark team repository; MIT-licensed, substantive Go implementation and tests, documented permission/safety gates, strong adoption, and recent tested improvements. |
 | 47 | [claude-plugins-official](claude-plugins-official/) | Plugin Marketplace | Anthropic-managed directory distributing skills, agents, hooks, commands, MCP integrations, and language-server plugins for Claude Code. | [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official) | Official Anthropic internal plugins plus approval-gated partner/community entries; substantive skills, strong adoption, and active security maintenance. Review each plugin independently. |
 | 48 | [onetake](onetake/) | Video / Motion | Agent Skill for generating continuous-take motion launch films & feature demos, with continuity verification tooling. | [feitangyuan/onetake](https://github.com/feitangyuan/onetake) | Substantive implementation (motion library + rendering + verification), documented method, and shipped example films. |
-| 49 | [hol-guard](hol-guard/) | Agent Security | Runtime “antivirus” / guardrails for AI agents: blocks risky tools, secrets access, prompt-injection and supply-chain threats; designed for auditability. | [hashgraph-online/hol-guard](https://github.com/hashgraph-online/hol-guard) | Security-focused scope, active maintenance, and real community traction. |
+| 49 | [hol-guard](hol-guard/) | Agent Security | Runtime “antivirus” / guardrails for AI agents: blocks risky tools, secrets access, prompt injection, supply-chain threats; designed for auditability. | [hashgraph-online/hol-guard](https://github.com/hashgraph-online/hol-guard) | Security-focused scope, active maintenance, and real community traction. |
 | 50 | [bitbucket-cli](bitbucket-cli/) | DevOps / SCM | Standalone Bitbucket CLI (Cloud + Data Center) with an included Agent Skills (SKILL.md) bundle for Claude Code/Codex/Cursor/etc. | [avivsinai/bitbucket-cli](https://github.com/avivsinai/bitbucket-cli) | Substantive tool + documented skill bundle; strong community traction and security posture. |
+| 51 | [fast-agent](fast-agent/) | Agent Framework / Runtime | CLI-first framework to build, run, and evaluate agent apps, with first-class SKILL.md + MCP support. | [evalstate/fast-agent](https://github.com/evalstate/fast-agent) | Mature project with strong traction; substantive implementation + CI; SKILL.md is a core feature. |
 
 ## How this wiki is organized
 
@@ -96,6 +97,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Agent harness / orchestration**: openrig
 - **Agent quality / configuration**: agnix
 - **Agent / Harness tooling**: dsh-hub-cli, bitbucket-cli
+- **Agent framework / runtime**: fast-agent
 - **Marketplace**: daymade-claude-code-skills, claude-plugins-official
 - **Office / Agent tooling**: genoffice, lark-cli-skills
 - **Agent evaluation / quality**: nvidia-skillevaluator
