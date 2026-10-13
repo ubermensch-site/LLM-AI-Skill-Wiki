@@ -64,6 +64,7 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 49 | [hol-guard](hol-guard/) | Agent Security | Runtime “antivirus” / guardrails for AI agents: blocks risky tools, secrets access, prompt injection, supply-chain threats; designed for auditability. | [hashgraph-online/hol-guard](https://github.com/hashgraph-online/hol-guard) | Security-focused scope, active maintenance, and real community traction. |
 | 50 | [bitbucket-cli](bitbucket-cli/) | DevOps / SCM | Standalone Bitbucket CLI (Cloud + Data Center) with an included Agent Skills (SKILL.md) bundle for Claude Code/Codex/Cursor/etc. | [avivsinai/bitbucket-cli](https://github.com/avivsinai/bitbucket-cli) | Substantive tool + documented skill bundle; strong community traction and security posture. |
 | 51 | [fast-agent](fast-agent/) | Agent Framework / Runtime | CLI-first framework to build, run, and evaluate agent apps, with first-class SKILL.md + MCP support. | [evalstate/fast-agent](https://github.com/evalstate/fast-agent) | Mature project with strong traction; substantive implementation + CI; SKILL.md is a core feature. |
+| 52 | [awesome-gamedev-agent-skills](awesome-gamedev-agent-skills/) | Game Development | 74 game-dev Agent Skills plus a router that auto-loads the right skills by engine/task (Godot/Unity/Unreal/etc.). | [gamedev-skills/awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) | Large, structured catalog; Apache-2.0 licensed; actively maintained with validation tooling. |
 
 ## How this wiki is organized
 
@@ -107,6 +108,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Power Platform development**: power-platform-skills
 - **Output / visualization**: answer-me-with-html
 - **Video / Motion**: onetake
+- **Game development**: awesome-gamedev-agent-skills
 
 ## How to install/use
 
