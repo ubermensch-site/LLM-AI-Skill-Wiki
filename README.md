@@ -65,6 +65,7 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 50 | [bitbucket-cli](bitbucket-cli/) | DevOps / SCM | Standalone Bitbucket CLI (Cloud + Data Center) with an included Agent Skills (SKILL.md) bundle for Claude Code/Codex/Cursor/etc. | [avivsinai/bitbucket-cli](https://github.com/avivsinai/bitbucket-cli) | Substantive tool + documented skill bundle; strong community traction and security posture. |
 | 51 | [fast-agent](fast-agent/) | Agent Framework / Runtime | CLI-first framework to build, run, and evaluate agent apps, with first-class SKILL.md + MCP support. | [evalstate/fast-agent](https://github.com/evalstate/fast-agent) | Mature project with strong traction; substantive implementation + CI; SKILL.md is a core feature. |
 | 52 | [awesome-gamedev-agent-skills](awesome-gamedev-agent-skills/) | Game Development | 74 game-dev Agent Skills plus a router that auto-loads the right skills by engine/task (Godot/Unity/Unreal/etc.). | [gamedev-skills/awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) | Large, structured catalog; Apache-2.0 licensed; actively maintained with validation tooling. |
+| 53 | [google-skills](google-skills/) | Google Cloud / Product Skills | Official Google Agent Skills for cloud, AI/ML, infrastructure, databases, security, developer tools, ads, and analytics, plus product plugins. | [google/skills](https://github.com/google/skills) | Official Google repository; Apache-2.0, strong adoption, active Google team maintenance, and substantive product-specific SKILL.md workflows with validation and safety guidance. |
 
 ## How this wiki is organized
 
@@ -109,6 +110,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Output / visualization**: answer-me-with-html
 - **Video / Motion**: onetake
 - **Game development**: awesome-gamedev-agent-skills
+- **Google Cloud / Product Skills**: google-skills
 
 ## How to install/use
 
