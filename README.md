@@ -66,6 +66,8 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 51 | [fast-agent](fast-agent/) | Agent Framework / Runtime | CLI-first framework to build, run, and evaluate agent apps, with first-class SKILL.md + MCP support. | [evalstate/fast-agent](https://github.com/evalstate/fast-agent) | Mature project with strong traction; substantive implementation + CI; SKILL.md is a core feature. |
 | 52 | [awesome-gamedev-agent-skills](awesome-gamedev-agent-skills/) | Game Development | 74 game-dev Agent Skills plus a router that auto-loads the right skills by engine/task (Godot/Unity/Unreal/etc.). | [gamedev-skills/awesome-gamedev-agent-skills](https://github.com/gamedev-skills/awesome-gamedev-agent-skills) | Large, structured catalog; Apache-2.0 licensed; actively maintained with validation tooling. |
 | 53 | [google-skills](google-skills/) | Google Cloud / Product Skills | Official Google Agent Skills for cloud, AI/ML, infrastructure, databases, security, developer tools, ads, and analytics, plus product plugins. | [google/skills](https://github.com/google/skills) | Official Google repository; Apache-2.0, strong adoption, active Google team maintenance, and substantive product-specific SKILL.md workflows with validation and safety guidance. |
+| 54 | [salesforce-skills](salesforce-skills/) | Salesforce / Agentforce | Official Salesforce Agent Skills for Agentforce, Apex, SOQL, Lightning, Flow, data models, permissions, and related platform workflows. | [forcedotcom/sf-skills](https://github.com/forcedotcom/sf-skills) | Official Salesforce organization; large, actively released catalog following the Agent Skills specification, with strong community adoption. |
+| 55 | [cisco-skill-scanner](cisco-skill-scanner/) | Agent Security | Cisco AI Defense scanner for Agent Skills: prompt-injection, exfiltration, malicious-code, dependency, and supply-chain checks with CI/CD output. | [cisco-ai-defense/skill-scanner](https://github.com/cisco-ai-defense/skill-scanner) | Official Cisco AI Defense project; Apache-2.0, substantive multi-engine implementation, measured results, CI, tests, and active security maintenance. |
 
 ## How this wiki is organized
 
@@ -103,7 +105,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Marketplace**: daymade-claude-code-skills, claude-plugins-official
 - **Office / Agent tooling**: genoffice, lark-cli-skills
 - **Agent evaluation / quality**: nvidia-skillevaluator
-- **Agent security**: nvidia-skillspector, hol-guard
+- **Agent security**: nvidia-skillspector, hol-guard, cisco-skill-scanner
 - **Skill optimization / training**: SkillOpt
 - **.NET development**: dotnet-skills
 - **Power Platform development**: power-platform-skills
@@ -111,6 +113,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Video / Motion**: onetake
 - **Game development**: awesome-gamedev-agent-skills
 - **Google Cloud / Product Skills**: google-skills
+- **Salesforce / Agentforce**: salesforce-skills
 
 ## How to install/use
 
