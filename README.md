@@ -68,6 +68,11 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 53 | [google-skills](google-skills/) | Google Cloud / Product Skills | Official Google Agent Skills for cloud, AI/ML, infrastructure, databases, security, developer tools, ads, and analytics, plus product plugins. | [google/skills](https://github.com/google/skills) | Official Google repository; Apache-2.0, strong adoption, active Google team maintenance, and substantive product-specific SKILL.md workflows with validation and safety guidance. |
 | 54 | [salesforce-skills](salesforce-skills/) | Salesforce / Agentforce | Official Salesforce Agent Skills for Agentforce, Apex, SOQL, Lightning, Flow, data models, permissions, and related platform workflows. | [forcedotcom/sf-skills](https://github.com/forcedotcom/sf-skills) | Official Salesforce organization; large, actively released catalog following the Agent Skills specification, with strong community adoption. |
 | 55 | [cisco-skill-scanner](cisco-skill-scanner/) | Agent Security | Cisco AI Defense scanner for Agent Skills: prompt-injection, exfiltration, malicious-code, dependency, and supply-chain checks with CI/CD output. | [cisco-ai-defense/skill-scanner](https://github.com/cisco-ai-defense/skill-scanner) | Official Cisco AI Defense project; Apache-2.0, substantive multi-engine implementation, measured results, CI, tests, and active security maintenance. |
+| 56 | [clawsec](clawsec/) | Agent Security | Security skills and signed advisory intelligence for OpenClaw, NanoClaw, Hermes, and Picoclaw, including guarded installs, integrity checks, and drift detection. | [prompt-security/clawsec](https://github.com/prompt-security/clawsec) | Built by Prompt Security from SentinelOne; signed advisories, CI, security documentation, and substantive platform-specific skills. |
+| 57 | [seo](seo/) | SEO / Analytics | CLI and MCP skill for evidence-based SEO using Search Console, Analytics, Bing, crawls, keyword research, and competitor data. | [iannuttall/seo](https://github.com/iannuttall/seo) | Apache-2.0, CI, published npm package, security/privacy documentation, and a substantial TypeScript implementation. |
+| 58 | [skillmd](skillmd/) | Skill Infrastructure | Open toolchain and registry for searching, installing, linting, scanning, and publishing SKILL.md skills across 60+ agent clients. | [skillmds/skillmd](https://github.com/skillmds/skillmd) | MIT-licensed CLI/MCP/GitHub Action with tests, CI, security scanning, and a real parser/linter implementation. |
+| 59 | [orchestkit](orchestkit/) | Engineering / Harness | Production-focused Claude Code plugin with 110 skills, 36 agents, and 162 hooks for review, testing, security, memory, and shipping workflows. | [yonatangross/orchestkit](https://github.com/yonatangross/orchestkit) | MIT-licensed, actively released, extensively documented, tested, and transparent about hook behavior and data handling. |
+| 60 | [research-toolkit](research-toolkit/) | Research | Evidence-first research workflow skill for turning questions or existing material into traceable reports with Lite and Full modes, reviews, and optional MCP tools. | [rrrrrredy/research-toolkit](https://github.com/rrrrrredy/research-toolkit) | MIT-licensed with CI, documented case studies, evaluation records, transparent limitations, and reproducible workflow guidance. |
 
 ## How this wiki is organized
 
@@ -81,10 +86,10 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 
 ## Categories at a glance
 
-- **SEO / GEO**: claude-seo, geo-seo-claude
+- **SEO / GEO**: claude-seo, geo-seo-claude, seo
 - **Marketing**: marketingskills
-- **Research**: last30days-skill
-- **Engineering workflow**: agent-skills, everything-claude-code, agents-marketplace, skills-real-engineers
+- **Research**: last30days-skill, research-toolkit
+- **Engineering workflow**: agent-skills, everything-claude-code, agents-marketplace, skills-real-engineers, orchestkit
 - **Coding style / guidelines**: andrej-karpathy-skills, caveman, ponytail
 - **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill, ux-ui-agent-skills, styleseed
 - **Writing**: no-ai-slop
@@ -95,7 +100,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Curated "awesome" lists**: awesome-claude-skills, awesome-claude-code, awesome-agent-skills, awesome-llm-apps, awesome-copilot
 - **Science / research**: scientific-agent-skills, clawbio
 - **Cybersecurity**: cybersecurity-skills
-- **Skill infrastructure**: SkillCorpus, vercel-skills-cli
+- **Skill infrastructure**: SkillCorpus, vercel-skills-cli, skillmd
 - **Visual iteration / 3D**: dream-loop
 - **Agent runtime**: forge
 - **Agent harness / orchestration**: openrig
@@ -105,7 +110,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Marketplace**: daymade-claude-code-skills, claude-plugins-official
 - **Office / Agent tooling**: genoffice, lark-cli-skills
 - **Agent evaluation / quality**: nvidia-skillevaluator
-- **Agent security**: nvidia-skillspector, hol-guard, cisco-skill-scanner
+- **Agent security**: nvidia-skillspector, hol-guard, cisco-skill-scanner, clawsec
 - **Skill optimization / training**: SkillOpt
 - **.NET development**: dotnet-skills
 - **Power Platform development**: power-platform-skills
