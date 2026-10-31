@@ -20,7 +20,7 @@ A curated master collection of AI agent "skills" (compatible with Claude Code, C
 | 12 | [no-ai-slop](no-ai-slop/) | Writing | Removes 20+ AI-slop writing patterns (binary contrasts, throat-clearing, fake-profound endings) while preserving personal voice. | [petergyang/no-ai-slop](https://github.com/petergyang/no-ai-slop) |
 | 13 | [ponytail](ponytail/) | Code Minimalism | Anti-over-engineering skill — ~54% less code by following a "does this need to exist" decision ladder. 6 sub-skills. | [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) |
 | 14 | [ui-ux-pro-max-skill](ui-ux-pro-max-skill/) | UI/UX | AI-powered design-system generator: 67 UI styles, 96 color palettes, 57 font pairings, 100 industry-specific reasoning rules. | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) |
-| 15 | [agency-agents](agency-agents/) | Agent Personas | 142 specialist AI agent personas across 12 divisions (engineering, design, marketing, sales, testing, game dev, and more). | [msitarzewski/agency-agents](https://github.com/msitarzewski/agency-agency-agents) |
+| 15 | [agency-agents](agency-agents/) | Agent Personas | 142 specialist AI agent personas across 12 divisions (engineering, design, marketing, sales, testing, game dev, and more). | [msitarzewski/agency-agency-agents](https://github.com/msitarzewski/agency-agency-agents) |
 
 ## Trusted & Popular Additions (discovered on GitHub)
 
@@ -73,6 +73,9 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 58 | [skillmd](skillmd/) | Skill Infrastructure | Open toolchain and registry for searching, installing, linting, scanning, and publishing SKILL.md skills across 60+ agent clients. | [skillmds/skillmd](https://github.com/skillmds/skillmd) | MIT-licensed CLI/MCP/GitHub Action with tests, CI, security scanning, and a real parser/linter implementation. |
 | 59 | [orchestkit](orchestkit/) | Engineering / Harness | Production-focused Claude Code plugin with 110 skills, 36 agents, and 162 hooks for review, testing, security, memory, and shipping workflows. | [yonatangross/orchestkit](https://github.com/yonatangross/orchestkit) | MIT-licensed, actively released, extensively documented, tested, and transparent about hook behavior and data handling. |
 | 60 | [research-toolkit](research-toolkit/) | Research | Evidence-first research workflow skill for turning questions or existing material into traceable reports with Lite and Full modes, reviews, and optional MCP tools. | [rrrrrredy/research-toolkit](https://github.com/rrrrrredy/research-toolkit) | MIT-licensed with CI, documented case studies, evaluation records, transparent limitations, and reproducible workflow guidance. |
+| 61 | [claude-skills](claude-skills/) | Multi-domain Skills | 407 production-oriented skills, plugins, agents, and personas spanning engineering, marketing, research, compliance, finance, productivity, and business operations, with multi-agent install/conversion paths. | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | MIT-licensed, substantial tooling and references, security-auditing guidance, and 29k+ stars from an established AI tooling maintainer. |
+| 62 | [ai-research-skills](ai-research-skills/) | Research | 17 portable skills covering literature discovery, evidence-aware synthesis, gap analysis, research design, project memory, manuscript writing, Zotero, and bounded delegation. | [WenyuChiou/ai-research-skills](https://github.com/WenyuChiou/ai-research-skills) | MIT-licensed, schema-driven documentation and examples, an executable research runtime, human gates, and 450+ stars with active maintenance. |
+| 63 | [autoresearch](autoresearch/) | Engineering Workflow | Autonomous, bounded improvement loops for code and other measurable tasks: define a metric, make one change, verify, keep gains, and roll back failures. | [uditgoenka/autoresearch](https://github.com/uditgoenka/autoresearch) | MIT-licensed, 6k+ stars, real Claude Code/OpenCode/Codex implementations, installers, guides, rollback safeguards, and mechanical verification. |
 
 ## How this wiki is organized
 
@@ -88,8 +91,8 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 
 - **SEO / GEO**: claude-seo, geo-seo-claude, seo
 - **Marketing**: marketingskills
-- **Research**: last30days-skill, research-toolkit
-- **Engineering workflow**: agent-skills, everything-claude-code, agents-marketplace, skills-real-engineers, orchestkit
+- **Research**: last30days-skill, research-toolkit, ai-research-skills
+- **Engineering workflow**: agent-skills, everything-claude-code, agents-marketplace, skills-real-engineers, orchestkit, autoresearch
 - **Coding style / guidelines**: andrej-karpathy-skills, caveman, ponytail
 - **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill, ux-ui-agent-skills, styleseed
 - **Writing**: no-ai-slop
@@ -108,6 +111,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Agent / Harness tooling**: dsh-hub-cli, bitbucket-cli
 - **Agent framework / runtime**: fast-agent
 - **Marketplace**: daymade-claude-code-skills, claude-plugins-official
+- **Multi-domain skills**: claude-skills
 - **Office / Agent tooling**: genoffice, lark-cli-skills
 - **Agent evaluation / quality**: nvidia-skillevaluator
 - **Agent security**: nvidia-skillspector, hol-guard, cisco-skill-scanner, clawsec
