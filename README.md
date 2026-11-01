@@ -76,6 +76,11 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 61 | [claude-skills](claude-skills/) | Multi-domain Skills | 407 production-oriented skills, plugins, agents, and personas spanning engineering, marketing, research, compliance, finance, productivity, and business operations, with multi-agent install/conversion paths. | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | MIT-licensed, substantial tooling and references, security-auditing guidance, and 29k+ stars from an established AI tooling maintainer. |
 | 62 | [ai-research-skills](ai-research-skills/) | Research | 17 portable skills covering literature discovery, evidence-aware synthesis, gap analysis, research design, project memory, manuscript writing, Zotero, and bounded delegation. | [WenyuChiou/ai-research-skills](https://github.com/WenyuChiou/ai-research-skills) | MIT-licensed, schema-driven documentation and examples, an executable research runtime, human gates, and 450+ stars with active maintenance. |
 | 63 | [autoresearch](autoresearch/) | Engineering Workflow | Autonomous, bounded improvement loops for code and other measurable tasks: define a metric, make one change, verify, keep gains, and roll back failures. | [uditgoenka/autoresearch](https://github.com/uditgoenka/autoresearch) | MIT-licensed, 6k+ stars, real Claude Code/OpenCode/Codex implementations, installers, guides, rollback safeguards, and mechanical verification. |
+| 64 | [oil-ui](oil-ui/) | Design & UI/UX | Interface-design skill that researches visual direction, compares genuinely different designs, and refines real screenshots across desktop and mobile. | [oil-oil/oil-ui](https://github.com/oil-oil/oil-ui) | MIT-licensed, 2.5k+ stars, substantive SKILL.md workflow, strong documentation, and active maintenance. |
+| 65 | [skillhone](skillhone/) | Skill Optimization / Maintenance | Tencent system for continually repairing and improving complete Agent Skill repositories with evidence, tests, local PRs, and persistent decision history. | [Tencent/SkillHone](https://github.com/Tencent/SkillHone) | Official Tencent project, EMNLP 2026 Industry Track paper, MIT license, CI, and reproducible repair workflows. |
+| 66 | [sports-skills](sports-skills/) | Sports / Live Data | Machina Sports collection of Agent Skills for live sports data, analytics, news, odds, prediction-market research, and reproducible record/replay. | [machina-sports/sports-skills](https://github.com/machina-sports/sports-skills) | MIT-licensed, active open-source implementation with tests, CLI, Python package, safety contract, and 250+ stars. |
+| 67 | [alpaca-skills](alpaca-skills/) | Trading / Broker APIs | Official Alpaca skills for Trading API and Broker API workflows including backtesting, paper trading, market data, onboarding, transfers, and reconciliation. | [alpacahq/alpaca-skills](https://github.com/alpacahq/alpaca-skills) | Official Alpaca repository, Apache-2.0 license, clear credential and risk boundaries, and a substantial catalog. |
+| 68 | [context-mode](context-mode/) | Skill Infrastructure / Agent Runtime | MCP server and multi-agent plugin that routes large tool output through sandboxing, compression, search, and progressive disclosure to reduce context pressure. | [mksglu/context-mode](https://github.com/mksglu/context-mode) | 33k+ stars, substantial implementation and security documentation, active npm distribution; Elastic License 2.0 is clearly disclosed. |
 
 ## How this wiki is organized
 
@@ -94,7 +99,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Research**: last30days-skill, research-toolkit, ai-research-skills
 - **Engineering workflow**: agent-skills, everything-claude-code, agents-marketplace, skills-real-engineers, orchestkit, autoresearch
 - **Coding style / guidelines**: andrej-karpathy-skills, caveman, ponytail
-- **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill, ux-ui-agent-skills, styleseed
+- **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill, ux-ui-agent-skills, styleseed, oil-ui
 - **Writing**: no-ai-slop
 - **Workspace architecture**: icm-architect
 - **Agent personas**: agency-agents
@@ -103,7 +108,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Curated "awesome" lists**: awesome-claude-skills, awesome-claude-code, awesome-agent-skills, awesome-llm-apps, awesome-copilot
 - **Science / research**: scientific-agent-skills, clawbio
 - **Cybersecurity**: cybersecurity-skills
-- **Skill infrastructure**: SkillCorpus, vercel-skills-cli, skillmd
+- **Skill infrastructure**: SkillCorpus, vercel-skills-cli, skillmd, skillhone, context-mode
 - **Visual iteration / 3D**: dream-loop
 - **Agent runtime**: forge
 - **Agent harness / orchestration**: openrig
@@ -115,7 +120,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Office / Agent tooling**: genoffice, lark-cli-skills
 - **Agent evaluation / quality**: nvidia-skillevaluator
 - **Agent security**: nvidia-skillspector, hol-guard, cisco-skill-scanner, clawsec
-- **Skill optimization / training**: SkillOpt
+- **Skill optimization / training**: SkillOpt, skillhone
 - **.NET development**: dotnet-skills
 - **Power Platform development**: power-platform-skills
 - **Output / visualization**: answer-me-with-html
@@ -123,6 +128,8 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Game development**: awesome-gamedev-agent-skills
 - **Google Cloud / Product Skills**: google-skills
 - **Salesforce / Agentforce**: salesforce-skills
+- **Sports / live data**: sports-skills
+- **Trading / broker APIs**: alpaca-skills
 
 ## How to install/use
 
