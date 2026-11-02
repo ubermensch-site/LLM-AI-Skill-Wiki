@@ -81,6 +81,10 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 66 | [sports-skills](sports-skills/) | Sports / Live Data | Machina Sports collection of Agent Skills for live sports data, analytics, news, odds, prediction-market research, and reproducible record/replay. | [machina-sports/sports-skills](https://github.com/machina-sports/sports-skills) | MIT-licensed, active open-source implementation with tests, CLI, Python package, safety contract, and 250+ stars. |
 | 67 | [alpaca-skills](alpaca-skills/) | Trading / Broker APIs | Official Alpaca skills for Trading API and Broker API workflows including backtesting, paper trading, market data, onboarding, transfers, and reconciliation. | [alpacahq/alpaca-skills](https://github.com/alpacahq/alpaca-skills) | Official Alpaca repository, Apache-2.0 license, clear credential and risk boundaries, and a substantial catalog. |
 | 68 | [context-mode](context-mode/) | Skill Infrastructure / Agent Runtime | MCP server and multi-agent plugin that routes large tool output through sandboxing, compression, search, and progressive disclosure to reduce context pressure. | [mksglu/context-mode](https://github.com/mksglu/context-mode) | 33k+ stars, substantial implementation and security documentation, active npm distribution; Elastic License 2.0 is clearly disclosed. |
+| 69 | [agentic-awesome-skills](agentic-awesome-skills/) | Curated Skill Collection | 2,884+ installable `SKILL.md` playbooks plus AAS Core for local catalog search, exact selection, validation, and reviewable install plans across major coding agents. | [sickn33/agentic-awesome-skills](https://github.com/sickn33/agentic-awesome-skills) | MIT-licensed, versioned, security-documented community project with dry-run and plan-preview workflows; 49k+ stars and active releases. |
+| 70 | [skillhub](skillhub/) | Skill Infrastructure / Governance | Self-hosted enterprise registry for publishing, discovering, versioning, reviewing, and installing `SKILL.md` packages with namespaces, RBAC, audit logs, and CLI/API access. | [iflytek/skillhub](https://github.com/iflytek/skillhub) | Official iFlytek Astron project; Apache-2.0, substantive Java/React implementation, deployment docs, and explicit privacy/content-safety guidance. |
+| 71 | [unslop](unslop/) | Design & UI/UX | Claude Code/Codex skill that audits generic AI-looking interfaces, establishes product-specific visual direction, and iterates through ordered design passes. | [heydamir/unslop](https://github.com/heydamir/unslop) | Clear authorship, substantive workflow and examples, 5k+ stars, and explicit paid-generation approval guidance. |
+| 72 | [sprite-gen](sprite-gen/) | Game Development / Visual Assets | Codex/Claude skill and Python CLI that turns one character image into game-ready sprite atlases or transparent motion loops with QA, manifests, and exports. | [aldegad/sprite-gen](https://github.com/aldegad/sprite-gen) | Apache-2.0, substantive implementation and docs, deterministic manifests, explicit provider/billing guidance, and 3k+ stars. |
 
 ## How this wiki is organized
 
@@ -99,7 +103,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Research**: last30days-skill, research-toolkit, ai-research-skills
 - **Engineering workflow**: agent-skills, everything-claude-code, agents-marketplace, skills-real-engineers, orchestkit, autoresearch
 - **Coding style / guidelines**: andrej-karpathy-skills, caveman, ponytail
-- **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill, ux-ui-agent-skills, styleseed, oil-ui
+- **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill, ux-ui-agent-skills, styleseed, oil-ui, unslop
 - **Writing**: no-ai-slop
 - **Workspace architecture**: icm-architect
 - **Agent personas**: agency-agents
@@ -130,6 +134,9 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Salesforce / Agentforce**: salesforce-skills
 - **Sports / live data**: sports-skills
 - **Trading / broker APIs**: alpaca-skills
+- **Curated skill collections**: agentic-awesome-skills
+- **Skill registry / governance**: skillhub
+- **Game development / visual assets**: sprite-gen
 
 ## How to install/use
 
