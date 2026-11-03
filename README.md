@@ -85,6 +85,11 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 70 | [skillhub](skillhub/) | Skill Infrastructure / Governance | Self-hosted enterprise registry for publishing, discovering, versioning, reviewing, and installing `SKILL.md` packages with namespaces, RBAC, audit logs, and CLI/API access. | [iflytek/skillhub](https://github.com/iflytek/skillhub) | Official iFlytek Astron project; Apache-2.0, substantive Java/React implementation, deployment docs, and explicit privacy/content-safety guidance. |
 | 71 | [unslop](unslop/) | Design & UI/UX | Claude Code/Codex skill that audits generic AI-looking interfaces, establishes product-specific visual direction, and iterates through ordered design passes. | [heydamir/unslop](https://github.com/heydamir/unslop) | Clear authorship, substantive workflow and examples, 5k+ stars, and explicit paid-generation approval guidance. |
 | 72 | [sprite-gen](sprite-gen/) | Game Development / Visual Assets | Codex/Claude skill and Python CLI that turns one character image into game-ready sprite atlases or transparent motion loops with QA, manifests, and exports. | [aldegad/sprite-gen](https://github.com/aldegad/sprite-gen) | Apache-2.0, substantive implementation and docs, deterministic manifests, explicit provider/billing guidance, and 3k+ stars. |
+| 73 | [archify](archify/) | Interactive Diagrams | Source-aware Agent Skill and CLI that turns descriptions or repositories into validated interactive architecture, workflow, sequence, and data-flow diagrams. | [tt-a1i/archify](https://github.com/tt-a1i/archify) | Apache-2.0, 90k+ stars, 130k+ reported skill installs, and extensive validation tooling. |
+| 74 | [baoyu-design](baoyu-design/) | Design & UI/UX | Local-agent artifact skills for editable decks, canvases, design systems, dashboards, motion films, and data visualization. | [JimLiu/baoyu-design](https://github.com/JimLiu/baoyu-design) | Maintained by Jim Liu; 5k+ stars, active releases, extensive docs, and explicit attribution/licensing. |
+| 75 | [oh-my-design](oh-my-design/) | Design & UI/UX | Sourced `DESIGN.md` archive for 500+ products plus CJK-first frontend skills for typography, copy, visual direction, and slop audits. | [kwakseongjae/oh-my-design](https://github.com/kwakseongjae/oh-my-design) | 500+ stars, published CLI, MIT license, and a substantive sourced design archive. |
+| 76 | [openaccountants](openaccountants/) | Tax / Accounting | Jurisdiction-aware AI tax skills with official-source citations, review tiers, accountant metadata, and automated freshness checks. | [openaccountants/openaccountants](https://github.com/openaccountants/openaccountants) | 2,000+ skills across 200+ jurisdictions, named reviewers, source watching, and explicit safety boundaries. |
+| 77 | [terminal-skills](terminal-skills/) | Skill Infrastructure | Portable `SKILL.md` catalog spanning development, DevOps, automation, data, security, documents, and MCP workflows. | [TerminalSkills/skills](https://github.com/TerminalSkills/skills) | Apache-2.0, cross-agent standard support, real installation tooling, use-case guides, and MCP routing. |
 
 ## How this wiki is organized
 
@@ -103,7 +108,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Research**: last30days-skill, research-toolkit, ai-research-skills
 - **Engineering workflow**: agent-skills, everything-claude-code, agents-marketplace, skills-real-engineers, orchestkit, autoresearch
 - **Coding style / guidelines**: andrej-karpathy-skills, caveman, ponytail
-- **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill, ux-ui-agent-skills, styleseed, oil-ui, unslop
+- **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill, ux-ui-agent-skills, styleseed, oil-ui, unslop, baoyu-design, oh-my-design
 - **Writing**: no-ai-slop
 - **Workspace architecture**: icm-architect
 - **Agent personas**: agency-agents
@@ -112,7 +117,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Curated "awesome" lists**: awesome-claude-skills, awesome-claude-code, awesome-agent-skills, awesome-llm-apps, awesome-copilot
 - **Science / research**: scientific-agent-skills, clawbio
 - **Cybersecurity**: cybersecurity-skills
-- **Skill infrastructure**: SkillCorpus, vercel-skills-cli, skillmd, skillhone, context-mode
+- **Skill infrastructure**: SkillCorpus, vercel-skills-cli, skillmd, skillhone, context-mode, terminal-skills
 - **Visual iteration / 3D**: dream-loop
 - **Agent runtime**: forge
 - **Agent harness / orchestration**: openrig
@@ -137,6 +142,8 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Curated skill collections**: agentic-awesome-skills
 - **Skill registry / governance**: skillhub
 - **Game development / visual assets**: sprite-gen
+- **Interactive diagrams**: archify
+- **Tax / accounting**: openaccountants
 
 ## How to install/use
 
