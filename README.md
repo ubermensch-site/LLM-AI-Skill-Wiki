@@ -90,6 +90,10 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 75 | [oh-my-design](oh-my-design/) | Design & UI/UX | Sourced `DESIGN.md` archive for 500+ products plus CJK-first frontend skills for typography, copy, visual direction, and slop audits. | [kwakseongjae/oh-my-design](https://github.com/kwakseongjae/oh-my-design) | 500+ stars, published CLI, MIT license, and a substantive sourced design archive. |
 | 76 | [openaccountants](openaccountants/) | Tax / Accounting | Jurisdiction-aware AI tax skills with official-source citations, review tiers, accountant metadata, and automated freshness checks. | [openaccountants/openaccountants](https://github.com/openaccountants/openaccountants) | 2,000+ skills across 200+ jurisdictions, named reviewers, source watching, and explicit safety boundaries. |
 | 77 | [terminal-skills](terminal-skills/) | Skill Infrastructure | Portable `SKILL.md` catalog spanning development, DevOps, automation, data, security, documents, and MCP workflows. | [TerminalSkills/skills](https://github.com/TerminalSkills/skills) | Apache-2.0, cross-agent standard support, real installation tooling, use-case guides, and MCP routing. |
+| 78 | [openclaw-agent-skills](openclaw-agent-skills/) | Engineering / Agent Skills | OpenClaw's canonical shared workflow skills for review closeout, behavior validation, remote checks, handoffs, session viewing, and repository conventions. | [openclaw/agent-skills](https://github.com/openclaw/agent-skills) | Official OpenClaw repository; MIT-licensed, with installer, validation tooling, tests, and documented catalog boundaries. |
+| 79 | [skillshare](skillshare/) | Skill Infrastructure | Cross-agent CLI and configuration manager that syncs skills, agents, rules, MCP connections, hooks, and plugins across coding tools with built-in auditing. | [runkids/skillshare](https://github.com/runkids/skillshare) | MIT-licensed, substantial Go implementation, cross-platform releases, tests, detailed documentation, and strong community traction. |
+| 80 | [sciagent-skills](sciagent-skills/) | Science / Research | 199 structured scientific skills for genomics, bioinformatics, drug discovery, proteomics, biostatistics, lab automation, and scientific writing. | [jaechang-hits/SciAgent-Skills](https://github.com/jaechang-hits/SciAgent-Skills) | CC-BY-4.0, registry validation, multi-agent integration templates, and a project-reported BixBench benchmark result. |
+| 81 | [venice-skills](venice-skills/) | Official API / Product Skills | Venice AI's official API and workflow skills for chat, media, models, auth, billing, x402, crypto RPC, and other Venice surfaces. | [veniceai/skills](https://github.com/veniceai/skills) | Maintained by Venice AI; derived from its OpenAPI spec, MIT-licensed, release-tagged, CI-checked, and security-reviewed. |
 
 ## How this wiki is organized
 
@@ -106,18 +110,19 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **SEO / GEO**: claude-seo, geo-seo-claude, seo
 - **Marketing**: marketingskills
 - **Research**: last30days-skill, research-toolkit, ai-research-skills
-- **Engineering workflow**: agent-skills, everything-claude-code, agents-marketplace, skills-real-engineers, orchestkit, autoresearch
+- **Engineering workflow**: agent-skills, everything-claude-code, agents-marketplace, skills-real-engineers, orchestkit, autoresearch, openclaw-agent-skills
 - **Coding style / guidelines**: andrej-karpathy-skills, caveman, ponytail
 - **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill, ux-ui-agent-skills, styleseed, oil-ui, unslop, baoyu-design, oh-my-design
 - **Writing**: no-ai-slop
 - **Workspace architecture**: icm-architect
 - **Agent personas**: agency-agents
 - **Official standard / spec**: anthropics-skills, microsoft-skills
+- **Official API / product skills**: venice-skills
 - **Dev methodology**: superpowers
 - **Curated "awesome" lists**: awesome-claude-skills, awesome-claude-code, awesome-agent-skills, awesome-llm-apps, awesome-copilot
-- **Science / research**: scientific-agent-skills, clawbio
+- **Science / research**: scientific-agent-skills, clawbio, sciagent-skills
 - **Cybersecurity**: cybersecurity-skills
-- **Skill infrastructure**: SkillCorpus, vercel-skills-cli, skillmd, skillhone, context-mode, terminal-skills
+- **Skill infrastructure**: SkillCorpus, vercel-skills-cli, skillmd, skillhone, context-mode, terminal-skills, skillshare
 - **Visual iteration / 3D**: dream-loop
 - **Agent runtime**: forge
 - **Agent harness / orchestration**: openrig
