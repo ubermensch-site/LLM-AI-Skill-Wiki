@@ -95,6 +95,7 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 80 | [sciagent-skills](sciagent-skills/) | Science / Research | 199 structured scientific skills for genomics, bioinformatics, drug discovery, proteomics, biostatistics, lab automation, and scientific writing. | [jaechang-hits/SciAgent-Skills](https://github.com/jaechang-hits/SciAgent-Skills) | CC-BY-4.0, registry validation, multi-agent integration templates, and a project-reported BixBench benchmark result. |
 | 81 | [venice-skills](venice-skills/) | Official API / Product Skills | Venice AI's official API and workflow skills for chat, media, models, auth, billing, x402, crypto RPC, and other Venice surfaces. | [veniceai/skills](https://github.com/veniceai/skills) | Maintained by Venice AI; derived from its OpenAPI spec, MIT-licensed, release-tagged, CI-checked, and security-reviewed. |
 | 82 | [modular-skills](modular-skills/) | Mojo / ML Infrastructure | Official Modular skills for Mojo and MAX: project setup, syntax, model import and serving, debugging, profiling, benchmarking, and evaluation. | [modular/skills](https://github.com/modular/skills) | Official Modular repository; Agent Skills Standard compliant, Apache-2.0 licensed, and focused on source-backed MAX/Mojo workflows. |
+| 83 | [compose-skill](compose-skill/) | Mobile / UI Development | Source-backed Jetpack Compose and Compose Multiplatform guidance for Android, Desktop, iOS, Web, performance, navigation, accessibility, and modern UI APIs. | [aldefy/compose-skill](https://github.com/aldefy/compose-skill) | MIT-licensed, actively maintained, and grounded in AndroidX and JetBrains source code rather than guessed APIs. |
 
 ## How this wiki is organized
 
@@ -120,6 +121,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Official standard / spec**: anthropics-skills, microsoft-skills
 - **Official API / product skills**: venice-skills
 - **Mojo / ML infrastructure**: modular-skills
+- **Mobile / UI development**: compose-skill
 - **Dev methodology**: superpowers
 - **Curated "awesome" lists**: awesome-claude-skills, awesome-claude-code, awesome-agent-skills, awesome-llm-apps, awesome-copilot
 - **Science / research**: scientific-agent-skills, clawbio, sciagent-skills
