@@ -98,6 +98,7 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 83 | [compose-skill](compose-skill/) | Mobile / UI Development | Source-backed Jetpack Compose and Compose Multiplatform guidance for Android, Desktop, iOS, Web, performance, navigation, accessibility, and modern UI APIs. | [aldefy/compose-skill](https://github.com/aldefy/compose-skill) | MIT-licensed, actively maintained, and grounded in AndroidX and JetBrains source code rather than guessed APIs. |
 | 84 | [mathodology](mathodology/) | Scientific Modeling | Nine skills and a reproducible workbench for mathematical modeling: evidence retrieval, experiments, scientific plots, reference checks, and paper writing. | [sweetcornna/mathodology](https://github.com/sweetcornna/mathodology) | MIT-licensed, released cross-platform Studio, executable verification hooks, and a substantial documented workflow. |
 | 85 | [paper-search-pro](paper-search-pro/) | Research | Evidence-bounded academic literature search across OpenAlex, PubMed, arXiv, Semantic Scholar, CrossRef, and specialist sources with HTML, citation, and audit outputs. | [O0000-code/paper-search-pro](https://github.com/O0000-code/paper-search-pro) | Apache-2.0, versioned and CI-supported, with reproducible search tiers, source boundaries, and PRISMA-S-style audit logging. |
+| 86 | [code-animation-prompts](code-animation-prompts/) | Video / Motion | Claude Code and Codex skill with 341 indexed animation styles, 196 reference stills, searchable prompt assets, local installation, and optional HTML-to-video rendering. | [XiaoyeCodes/code-animation-prompts](https://github.com/XiaoyeCodes/code-animation-prompts) | Substantive offline-first implementation with documented asset provenance, licensing, examples, and deterministic helper scripts. |
 
 ## How this wiki is organized
 
@@ -145,7 +146,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **.NET development**: dotnet-skills
 - **Power Platform development**: power-platform-skills
 - **Output / visualization**: answer-me-with-html
-- **Video / Motion**: onetake
+- **Video / Motion**: onetake, code-animation-prompts
 - **Game development**: awesome-gamedev-agent-skills
 - **Google Cloud / Product Skills**: google-skills
 - **Salesforce / Agentforce**: salesforce-skills
