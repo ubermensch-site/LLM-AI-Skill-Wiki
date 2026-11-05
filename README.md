@@ -99,6 +99,7 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 84 | [mathodology](mathodology/) | Scientific Modeling | Nine skills and a reproducible workbench for mathematical modeling: evidence retrieval, experiments, scientific plots, reference checks, and paper writing. | [sweetcornna/mathodology](https://github.com/sweetcornna/mathodology) | MIT-licensed, released cross-platform Studio, executable verification hooks, and a substantial documented workflow. |
 | 85 | [paper-search-pro](paper-search-pro/) | Research | Evidence-bounded academic literature search across OpenAlex, PubMed, arXiv, Semantic Scholar, CrossRef, and specialist sources with HTML, citation, and audit outputs. | [O0000-code/paper-search-pro](https://github.com/O0000-code/paper-search-pro) | Apache-2.0, versioned and CI-supported, with reproducible search tiers, source boundaries, and PRISMA-S-style audit logging. |
 | 86 | [code-animation-prompts](code-animation-prompts/) | Video / Motion | Claude Code and Codex skill with 341 indexed animation styles, 196 reference stills, searchable prompt assets, local installation, and optional HTML-to-video rendering. | [XiaoyeCodes/code-animation-prompts](https://github.com/XiaoyeCodes/code-animation-prompts) | Substantive offline-first implementation with documented asset provenance, licensing, examples, and deterministic helper scripts. |
+| 87 | [buildwithclaude](buildwithclaude/) | Marketplace / Discovery | Open-source Claude Code marketplace with curated agents, commands, hooks, skills, plugins, and a searchable web catalog for community extensions and MCP servers. | [davepoon/buildwithclaude](https://github.com/davepoon/buildwithclaude) | MIT-licensed public marketplace with documented installation paths, contribution guidance, and substantial first-party collections. |
 
 ## How this wiki is organized
 
@@ -137,7 +138,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Agent quality / configuration**: agnix
 - **Agent / Harness tooling**: dsh-hub-cli, bitbucket-cli
 - **Agent framework / runtime**: fast-agent
-- **Marketplace**: daymade-claude-code-skills, claude-plugins-official
+- **Marketplace**: daymade-claude-code-skills, claude-plugins-official, buildwithclaude
 - **Multi-domain skills**: claude-skills
 - **Office / Agent tooling**: genoffice, lark-cli-skills
 - **Agent evaluation / quality**: nvidia-skillevaluator
