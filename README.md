@@ -94,6 +94,7 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 79 | [skillshare](skillshare/) | Skill Infrastructure | Cross-agent CLI and configuration manager that syncs skills, agents, rules, MCP connections, hooks, and plugins across coding tools with built-in auditing. | [runkids/skillshare](https://github.com/runkids/skillshare) | MIT-licensed, substantial Go implementation, cross-platform releases, tests, detailed documentation, and strong community traction. |
 | 80 | [sciagent-skills](sciagent-skills/) | Science / Research | 199 structured scientific skills for genomics, bioinformatics, drug discovery, proteomics, biostatistics, lab automation, and scientific writing. | [jaechang-hits/SciAgent-Skills](https://github.com/jaechang-hits/SciAgent-Skills) | CC-BY-4.0, registry validation, multi-agent integration templates, and a project-reported BixBench benchmark result. |
 | 81 | [venice-skills](venice-skills/) | Official API / Product Skills | Venice AI's official API and workflow skills for chat, media, models, auth, billing, x402, crypto RPC, and other Venice surfaces. | [veniceai/skills](https://github.com/veniceai/skills) | Maintained by Venice AI; derived from its OpenAPI spec, MIT-licensed, release-tagged, CI-checked, and security-reviewed. |
+| 82 | [modular-skills](modular-skills/) | Mojo / ML Infrastructure | Official Modular skills for Mojo and MAX: project setup, syntax, model import and serving, debugging, profiling, benchmarking, and evaluation. | [modular/skills](https://github.com/modular/skills) | Official Modular repository; Agent Skills Standard compliant, Apache-2.0 licensed, and focused on source-backed MAX/Mojo workflows. |
 
 ## How this wiki is organized
 
@@ -118,6 +119,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Agent personas**: agency-agents
 - **Official standard / spec**: anthropics-skills, microsoft-skills
 - **Official API / product skills**: venice-skills
+- **Mojo / ML infrastructure**: modular-skills
 - **Dev methodology**: superpowers
 - **Curated "awesome" lists**: awesome-claude-skills, awesome-claude-code, awesome-agent-skills, awesome-llm-apps, awesome-copilot
 - **Science / research**: scientific-agent-skills, clawbio, sciagent-skills
