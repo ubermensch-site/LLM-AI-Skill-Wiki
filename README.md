@@ -97,6 +97,7 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 82 | [modular-skills](modular-skills/) | Mojo / ML Infrastructure | Official Modular skills for Mojo and MAX: project setup, syntax, model import and serving, debugging, profiling, benchmarking, and evaluation. | [modular/skills](https://github.com/modular/skills) | Official Modular repository; Agent Skills Standard compliant, Apache-2.0 licensed, and focused on source-backed MAX/Mojo workflows. |
 | 83 | [compose-skill](compose-skill/) | Mobile / UI Development | Source-backed Jetpack Compose and Compose Multiplatform guidance for Android, Desktop, iOS, Web, performance, navigation, accessibility, and modern UI APIs. | [aldefy/compose-skill](https://github.com/aldefy/compose-skill) | MIT-licensed, actively maintained, and grounded in AndroidX and JetBrains source code rather than guessed APIs. |
 | 84 | [mathodology](mathodology/) | Scientific Modeling | Nine skills and a reproducible workbench for mathematical modeling: evidence retrieval, experiments, scientific plots, reference checks, and paper writing. | [sweetcornna/mathodology](https://github.com/sweetcornna/mathodology) | MIT-licensed, released cross-platform Studio, executable verification hooks, and a substantial documented workflow. |
+| 85 | [paper-search-pro](paper-search-pro/) | Research | Evidence-bounded academic literature search across OpenAlex, PubMed, arXiv, Semantic Scholar, CrossRef, and specialist sources with HTML, citation, and audit outputs. | [O0000-code/paper-search-pro](https://github.com/O0000-code/paper-search-pro) | Apache-2.0, versioned and CI-supported, with reproducible search tiers, source boundaries, and PRISMA-S-style audit logging. |
 
 ## How this wiki is organized
 
@@ -112,7 +113,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 
 - **SEO / GEO**: claude-seo, geo-seo-claude, seo
 - **Marketing**: marketingskills
-- **Research**: last30days-skill, research-toolkit, ai-research-skills
+- **Research**: last30days-skill, research-toolkit, ai-research-skills, paper-search-pro
 - **Engineering workflow**: agent-skills, everything-claude-code, agents-marketplace, skills-real-engineers, orchestkit, autoresearch, openclaw-agent-skills
 - **Coding style / guidelines**: andrej-karpathy-skills, caveman, ponytail
 - **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill, ux-ui-agent-skills, styleseed, oil-ui, unslop, baoyu-design, oh-my-design
