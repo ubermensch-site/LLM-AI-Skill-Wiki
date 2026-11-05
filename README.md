@@ -96,6 +96,7 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 81 | [venice-skills](venice-skills/) | Official API / Product Skills | Venice AI's official API and workflow skills for chat, media, models, auth, billing, x402, crypto RPC, and other Venice surfaces. | [veniceai/skills](https://github.com/veniceai/skills) | Maintained by Venice AI; derived from its OpenAPI spec, MIT-licensed, release-tagged, CI-checked, and security-reviewed. |
 | 82 | [modular-skills](modular-skills/) | Mojo / ML Infrastructure | Official Modular skills for Mojo and MAX: project setup, syntax, model import and serving, debugging, profiling, benchmarking, and evaluation. | [modular/skills](https://github.com/modular/skills) | Official Modular repository; Agent Skills Standard compliant, Apache-2.0 licensed, and focused on source-backed MAX/Mojo workflows. |
 | 83 | [compose-skill](compose-skill/) | Mobile / UI Development | Source-backed Jetpack Compose and Compose Multiplatform guidance for Android, Desktop, iOS, Web, performance, navigation, accessibility, and modern UI APIs. | [aldefy/compose-skill](https://github.com/aldefy/compose-skill) | MIT-licensed, actively maintained, and grounded in AndroidX and JetBrains source code rather than guessed APIs. |
+| 84 | [mathodology](mathodology/) | Scientific Modeling | Nine skills and a reproducible workbench for mathematical modeling: evidence retrieval, experiments, scientific plots, reference checks, and paper writing. | [sweetcornna/mathodology](https://github.com/sweetcornna/mathodology) | MIT-licensed, released cross-platform Studio, executable verification hooks, and a substantial documented workflow. |
 
 ## How this wiki is organized
 
@@ -122,6 +123,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Official API / product skills**: venice-skills
 - **Mojo / ML infrastructure**: modular-skills
 - **Mobile / UI development**: compose-skill
+- **Scientific modeling**: mathodology
 - **Dev methodology**: superpowers
 - **Curated "awesome" lists**: awesome-claude-skills, awesome-claude-code, awesome-agent-skills, awesome-llm-apps, awesome-copilot
 - **Science / research**: scientific-agent-skills, clawbio, sciagent-skills
