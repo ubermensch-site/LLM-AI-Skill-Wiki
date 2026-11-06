@@ -100,6 +100,9 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 85 | [paper-search-pro](paper-search-pro/) | Research | Evidence-bounded academic literature search across OpenAlex, PubMed, arXiv, Semantic Scholar, CrossRef, and specialist sources with HTML, citation, and audit outputs. | [O0000-code/paper-search-pro](https://github.com/O0000-code/paper-search-pro) | Apache-2.0, versioned and CI-supported, with reproducible search tiers, source boundaries, and PRISMA-S-style audit logging. |
 | 86 | [code-animation-prompts](code-animation-prompts/) | Video / Motion | Claude Code and Codex skill with 341 indexed animation styles, 196 reference stills, searchable prompt assets, local installation, and optional HTML-to-video rendering. | [XiaoyeCodes/code-animation-prompts](https://github.com/XiaoyeCodes/code-animation-prompts) | Substantive offline-first implementation with documented asset provenance, licensing, examples, and deterministic helper scripts. |
 | 87 | [buildwithclaude](buildwithclaude/) | Marketplace / Discovery | Open-source Claude Code marketplace with curated agents, commands, hooks, skills, plugins, and a searchable web catalog for community extensions and MCP servers. | [davepoon/buildwithclaude](https://github.com/davepoon/buildwithclaude) | MIT-licensed public marketplace with documented installation paths, contribution guidance, and substantial first-party collections. |
+| 88 | [ok-skills](ok-skills/) | Multi-domain Skills | 32 reusable skills and `CLAUDE.md` / `AGENTS.md` playbooks for Codex, Claude Code, Cursor, OpenClaw, and other compatible agents. | [mxyhi/ok-skills](https://github.com/mxyhi/ok-skills) | Maintained, multilingual, documented collection with explicit upstream references and broad cross-agent support. |
+| 89 | [awesome-design-skills](awesome-design-skills/) | Design & UI/UX | Curated registry of 67 design-system skills pairing agent-facing `SKILL.md` files with human-readable `DESIGN.md` references. | [bergside/awesome-design-skills](https://github.com/bergside/awesome-design-skills) | MIT-licensed registry with structured metadata, accessibility rules, quality gates, and maintained TypeUI tooling. |
+| 90 | [tinte](tinte/) | Skill Infrastructure / Design | Compiles design-system identities into Agent Plugins with `SKILL.md`, `tokens.css`, and linting for token bypasses. | [Railly/tinte](https://github.com/Railly/tinte) | MIT-licensed open-source compiler with a substantive monorepo, documented CLI, and a live self-hosted design workflow. |
 
 ## How this wiki is organized
 
@@ -118,7 +121,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Research**: last30days-skill, research-toolkit, ai-research-skills, paper-search-pro
 - **Engineering workflow**: agent-skills, everything-claude-code, agents-marketplace, skills-real-engineers, orchestkit, autoresearch, openclaw-agent-skills
 - **Coding style / guidelines**: andrej-karpathy-skills, caveman, ponytail
-- **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill, ux-ui-agent-skills, styleseed, oil-ui, unslop, baoyu-design, oh-my-design
+- **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill, ux-ui-agent-skills, styleseed, oil-ui, unslop, baoyu-design, oh-my-design, awesome-design-skills
 - **Writing**: no-ai-slop
 - **Workspace architecture**: icm-architect
 - **Agent personas**: agency-agents
@@ -131,7 +134,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Curated "awesome" lists**: awesome-claude-skills, awesome-claude-code, awesome-agent-skills, awesome-llm-apps, awesome-copilot
 - **Science / research**: scientific-agent-skills, clawbio, sciagent-skills
 - **Cybersecurity**: cybersecurity-skills
-- **Skill infrastructure**: SkillCorpus, vercel-skills-cli, skillmd, skillhone, context-mode, terminal-skills, skillshare
+- **Skill infrastructure**: SkillCorpus, vercel-skills-cli, skillmd, skillhone, context-mode, terminal-skills, skillshare, tinte
 - **Visual iteration / 3D**: dream-loop
 - **Agent runtime**: forge
 - **Agent harness / orchestration**: openrig
@@ -153,7 +156,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Salesforce / Agentforce**: salesforce-skills
 - **Sports / live data**: sports-skills
 - **Trading / broker APIs**: alpaca-skills
-- **Curated skill collections**: agentic-awesome-skills
+- **Curated skill collections**: agentic-awesome-skills, ok-skills
 - **Skill registry / governance**: skillhub
 - **Game development / visual assets**: sprite-gen
 - **Interactive diagrams**: archify
