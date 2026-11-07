@@ -103,6 +103,13 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 88 | [ok-skills](ok-skills/) | Multi-domain Skills | 32 reusable skills and `CLAUDE.md` / `AGENTS.md` playbooks for Codex, Claude Code, Cursor, OpenClaw, and other compatible agents. | [mxyhi/ok-skills](https://github.com/mxyhi/ok-skills) | Maintained, multilingual, documented collection with explicit upstream references and broad cross-agent support. |
 | 89 | [awesome-design-skills](awesome-design-skills/) | Design & UI/UX | Curated registry of 67 design-system skills pairing agent-facing `SKILL.md` files with human-readable `DESIGN.md` references. | [bergside/awesome-design-skills](https://github.com/bergside/awesome-design-skills) | MIT-licensed registry with structured metadata, accessibility rules, quality gates, and maintained TypeUI tooling. |
 | 90 | [tinte](tinte/) | Skill Infrastructure / Design | Compiles design-system identities into Agent Plugins with `SKILL.md`, `tokens.css`, and linting for token bypasses. | [Railly/tinte](https://github.com/Railly/tinte) | MIT-licensed open-source compiler with a substantive monorepo, documented CLI, and a live self-hosted design workflow. |
+| 91 | [dzhng-skills](dzhng-skills/) | Engineering Workflow | Composable software-factory skills for exploring unknowns, writing specs, implementing, reviewing, testing, researching, and visually verifying work. | [dzhng/skills](https://github.com/dzhng/skills) | Substantive MIT-licensed collection with 1,400+ stars, install tooling, and a complete spec-to-review workflow. |
+| 92 | [drama-skills](drama-skills/) | Short Drama / Motion Comics | 12-skill AI short-drama pipeline from source analysis and scripts through assets, storyboards, prompts, confirmed production, editing, and review. | [zenstory-ai/drama-skills](https://github.com/zenstory-ai/drama-skills) | Maintained by ZenStory AI; 3,900+ stars, CI, real outputs, validation scripts, and explicit production safety gates. |
+| 93 | [oh-story-claudecode](oh-story-claudecode/) | Writing | 14-skill fiction-writing suite for trend scanning, story analysis, outlining, long/short fiction, continuity tracking, AI-style cleanup, and review. | [zenstory-ai/oh-story-claudecode](https://github.com/zenstory-ai/oh-story-claudecode) | Maintained by ZenStory AI; 8,000+ stars, substantial examples, hooks, local checks, and MIT licensing. |
+| 94 | [databricks-agent-skills](databricks-agent-skills/) | Databricks / Product Skills | Official Databricks skills and plugins for apps, jobs, data pipelines, Lakebase, Model Serving, DABs, MLflow, and Unity Catalog. | [databricks/databricks-agent-skills](https://github.com/databricks/databricks-agent-skills) | Official Databricks repository with stable/experimental boundaries, CLI and marketplace installs, generated manifests, CI, and code-owner review. |
+| 95 | [interface-skills](interface-skills/) | Design & UI/UX | Skills for accessibility, layout, typography, color, product writing, UI polish, component states, design-image implementation, and interface review. | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) | Authored by Jakub Krehel; 11,000+ stars and concrete WCAG, design-system, and review guidance. |
+| 96 | [video-recap-skills](video-recap-skills/) | Video / Motion | Seven-skill workflow for turning videos into narrated recaps with evidence-backed editing, voiceover, subtitles, QC, and editable CapCut/Jianying drafts. | [zenstory-ai/video-recap-skills](https://github.com/zenstory-ai/video-recap-skills) | Maintained by ZenStory AI; 600+ stars, CI, real production artifacts, MIT license, and documented cost/authorization boundaries. |
+| 97 | [awesome-vibe-research](awesome-vibe-research/) | Curated Research | ModelScope's curated map of AI-assisted scientific research agents, skills, workflows, tools, and best practices across the research lifecycle. | [modelscope/Awesome-Vibe-Research](https://github.com/modelscope/Awesome-Vibe-Research) | Official ModelScope collection with active automated updates and explicit quality, maintenance, documentation, and practical-example criteria. |
 
 ## How this wiki is organized
 
@@ -119,14 +126,14 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **SEO / GEO**: claude-seo, geo-seo-claude, seo
 - **Marketing**: marketingskills
 - **Research**: last30days-skill, research-toolkit, ai-research-skills, paper-search-pro
-- **Engineering workflow**: agent-skills, everything-claude-code, agents-marketplace, skills-real-engineers, orchestkit, autoresearch, openclaw-agent-skills
+- **Engineering workflow**: agent-skills, everything-claude-code, agents-marketplace, skills-real-engineers, orchestkit, autoresearch, openclaw-agent-skills, dzhng-skills
 - **Coding style / guidelines**: andrej-karpathy-skills, caveman, ponytail
-- **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill, ux-ui-agent-skills, styleseed, oil-ui, unslop, baoyu-design, oh-my-design, awesome-design-skills
-- **Writing**: no-ai-slop
+- **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill, ux-ui-agent-skills, styleseed, oil-ui, unslop, baoyu-design, oh-my-design, awesome-design-skills, interface-skills
+- **Writing**: no-ai-slop, oh-story-claudecode
 - **Workspace architecture**: icm-architect
 - **Agent personas**: agency-agents
 - **Official standard / spec**: anthropics-skills, microsoft-skills
-- **Official API / product skills**: venice-skills
+- **Official API / product skills**: venice-skills, databricks-agent-skills
 - **Mojo / ML infrastructure**: modular-skills
 - **Mobile / UI development**: compose-skill
 - **Scientific modeling**: mathodology
@@ -150,13 +157,15 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **.NET development**: dotnet-skills
 - **Power Platform development**: power-platform-skills
 - **Output / visualization**: answer-me-with-html
-- **Video / Motion**: onetake, code-animation-prompts
+- **Video / Motion**: onetake, code-animation-prompts, video-recap-skills
+- **Short drama / motion comics**: drama-skills
 - **Game development**: awesome-gamedev-agent-skills
 - **Google Cloud / Product Skills**: google-skills
 - **Salesforce / Agentforce**: salesforce-skills
 - **Sports / live data**: sports-skills
 - **Trading / broker APIs**: alpaca-skills
 - **Curated skill collections**: agentic-awesome-skills, ok-skills
+- **Curated research**: awesome-vibe-research
 - **Skill registry / governance**: skillhub
 - **Game development / visual assets**: sprite-gen
 - **Interactive diagrams**: archify
