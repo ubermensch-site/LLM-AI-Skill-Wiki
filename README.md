@@ -110,6 +110,10 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 95 | [interface-skills](interface-skills/) | Design & UI/UX | Skills for accessibility, layout, typography, color, product writing, UI polish, component states, design-image implementation, and interface review. | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) | Authored by Jakub Krehel; 11,000+ stars and concrete WCAG, design-system, and review guidance. |
 | 96 | [video-recap-skills](video-recap-skills/) | Video / Motion | Seven-skill workflow for turning videos into narrated recaps with evidence-backed editing, voiceover, subtitles, QC, and editable CapCut/Jianying drafts. | [zenstory-ai/video-recap-skills](https://github.com/zenstory-ai/video-recap-skills) | Maintained by ZenStory AI; 600+ stars, CI, real production artifacts, MIT license, and documented cost/authorization boundaries. |
 | 97 | [awesome-vibe-research](awesome-vibe-research/) | Curated Research | ModelScope's curated map of AI-assisted scientific research agents, skills, workflows, tools, and best practices across the research lifecycle. | [modelscope/Awesome-Vibe-Research](https://github.com/modelscope/Awesome-Vibe-Research) | Official ModelScope collection with active automated updates and explicit quality, maintenance, documentation, and practical-example criteria. |
+| 98 | [tech-leads-agent-skills](tech-leads-agent-skills/) | Skill Registry / Governance | Security-focused registry of verified, tested, and installable skills for Claude Code, Cursor, Copilot, Cline, Gemini CLI, Codex, and other agents. | [tech-leads-club/agent-skills](https://github.com/tech-leads-club/agent-skills) | 7k+ stars; substantive TypeScript CLI/MCP server, CI, lockfiles, content hashing, audit logs, and documented Snyk scanning. |
+| 99 | [universal-modder](universal-modder/) | Game Development | Cross-agent game-modding workflow covering reconnaissance, reverse engineering, assets, automation, verification, publishing, and a searchable field-notes knowledge base. | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 9k+ stars; MIT-licensed implementation with real mod examples, multiple agent integrations, validation checks, and explicit anti-cheat/ownership safety boundaries. |
+| 100 | [html-anything](html-anything/) | Output / Visualization | Local-first HTML editor with 75 composable skills for web prototypes, decks, documents, social cards, data reports, and motion/VFX deliverables. | [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | 9k+ stars; Apache-2.0 application with browser tests, CI, nine coding-agent adapters, and a substantial structured skill catalog. |
+| 101 | [agentic-resource-registry](agentic-resource-registry/) | Skill Registry / Governance | Self-hosted registry for skills, agents, MCP clients, hooks, prompts, and sandboxes with reviewable releases, cross-harness installs, insights, traces, ARD, and A2A delegation. | [AgenticResourceRegistry/AgenticResourceRegistry](https://github.com/AgenticResourceRegistry/AgenticResourceRegistry) | 4k+ stars; Apache-2.0 server, web UI, and CLI with production deployment, security, audit, governance, and provenance documentation. |
 
 ## How this wiki is organized
 
@@ -156,17 +160,17 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Skill optimization / training**: SkillOpt, skillhone
 - **.NET development**: dotnet-skills
 - **Power Platform development**: power-platform-skills
-- **Output / visualization**: answer-me-with-html
+- **Output / visualization**: answer-me-with-html, html-anything
 - **Video / Motion**: onetake, code-animation-prompts, video-recap-skills
 - **Short drama / motion comics**: drama-skills
-- **Game development**: awesome-gamedev-agent-skills
+- **Game development**: awesome-gamedev-agent-skills, universal-modder
 - **Google Cloud / Product Skills**: google-skills
 - **Salesforce / Agentforce**: salesforce-skills
 - **Sports / live data**: sports-skills
 - **Trading / broker APIs**: alpaca-skills
 - **Curated skill collections**: agentic-awesome-skills, ok-skills
 - **Curated research**: awesome-vibe-research
-- **Skill registry / governance**: skillhub
+- **Skill registry / governance**: skillhub, tech-leads-agent-skills, agentic-resource-registry
 - **Game development / visual assets**: sprite-gen
 - **Interactive diagrams**: archify
 - **Tax / accounting**: openaccountants
