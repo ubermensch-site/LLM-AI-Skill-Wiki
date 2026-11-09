@@ -114,6 +114,10 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 99 | [universal-modder](universal-modder/) | Game Development | Cross-agent game-modding workflow covering reconnaissance, reverse engineering, assets, automation, verification, publishing, and a searchable field-notes knowledge base. | [rehan-remade/universal-modder](https://github.com/rehan-remade/universal-modder) | 9k+ stars; MIT-licensed implementation with real mod examples, multiple agent integrations, validation checks, and explicit anti-cheat/ownership safety boundaries. |
 | 100 | [html-anything](html-anything/) | Output / Visualization | Local-first HTML editor with 75 composable skills for web prototypes, decks, documents, social cards, data reports, and motion/VFX deliverables. | [nexu-io/html-anything](https://github.com/nexu-io/html-anything) | 9k+ stars; Apache-2.0 application with browser tests, CI, nine coding-agent adapters, and a substantial structured skill catalog. |
 | 101 | [agentic-resource-registry](agentic-resource-registry/) | Skill Registry / Governance | Self-hosted registry for skills, agents, MCP clients, hooks, prompts, and sandboxes with reviewable releases, cross-harness installs, insights, traces, ARD, and A2A delegation. | [AgenticResourceRegistry/AgenticResourceRegistry](https://github.com/AgenticResourceRegistry/AgenticResourceRegistry) | 4k+ stars; Apache-2.0 server, web UI, and CLI with production deployment, security, audit, governance, and provenance documentation. |
+| 102 | [apache-magpie](apache-magpie/) | Open-Source Maintenance | Apache's curated skills for issue and PR triage, code review, contributor mentoring, release management, repository health, and security reports, with sandboxing and human approval. | [apache/magpie](https://github.com/apache/magpie) | Official Apache project; Apache-2.0, vendor-neutral, human-in-the-loop by design, and backed by documented sandbox and command-guard controls. |
+| 103 | [memsearch](memsearch/) | Agent Memory | Cross-platform semantic memory for coding agents, with Markdown-backed capture, hybrid retrieval, progressive recall, and optional workflow-to-skill distillation. | [zilliztech/memsearch](https://github.com/zilliztech/memsearch) | Maintained by Zilliz; substantial Python/CLI/plugin implementation, tests, public docs, and user-controlled, rebuildable storage. |
+| 104 | [rstack](rstack/) | Engineering Workflow | Seven skills and an `AGENTS.md` workflow for isolated worktrees, architecture decisions, evidence-driven testing, visual proof, bounded review loops, and clean technical writing. | [michaelshimeles/rstack](https://github.com/michaelshimeles/rstack) | Substantive skills, scripts, tests, safety rules, and documented upstream licenses, with strong community traction. |
+| 105 | [deeppapernote](deeppapernote/) | Research | Deep-reading workflow that turns papers into evidence-grounded, illustrated, linked Obsidian notes, with paper-type-specific structure and quality checks. | [917Dhj/DeepPaperNote](https://github.com/917Dhj/DeepPaperNote) | MIT-licensed implementation with regression tests over real papers, explicit no-fabrication boundaries, and documented plugin/tooling workflows. |
 
 ## How this wiki is organized
 
@@ -129,8 +133,8 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 
 - **SEO / GEO**: claude-seo, geo-seo-claude, seo
 - **Marketing**: marketingskills
-- **Research**: last30days-skill, research-toolkit, ai-research-skills, paper-search-pro
-- **Engineering workflow**: agent-skills, everything-claude-code, agents-marketplace, skills-real-engineers, orchestkit, autoresearch, openclaw-agent-skills, dzhng-skills
+- **Research**: last30days-skill, research-toolkit, ai-research-skills, paper-search-pro, deeppapernote
+- **Engineering workflow**: agent-skills, everything-claude-code, agents-marketplace, skills-real-engineers, orchestkit, autoresearch, openclaw-agent-skills, dzhng-skills, rstack
 - **Coding style / guidelines**: andrej-karpathy-skills, caveman, ponytail
 - **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill, ux-ui-agent-skills, styleseed, oil-ui, unslop, baoyu-design, oh-my-design, awesome-design-skills, interface-skills
 - **Writing**: no-ai-slop, oh-story-claudecode
@@ -171,6 +175,8 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Curated skill collections**: agentic-awesome-skills, ok-skills
 - **Curated research**: awesome-vibe-research
 - **Skill registry / governance**: skillhub, tech-leads-agent-skills, agentic-resource-registry
+- **Open-source maintenance / governance**: apache-magpie
+- **Agent memory**: memsearch
 - **Game development / visual assets**: sprite-gen
 - **Interactive diagrams**: archify
 - **Tax / accounting**: openaccountants
