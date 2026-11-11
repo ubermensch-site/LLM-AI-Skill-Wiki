@@ -1,3 +1,4 @@
+successfully downloaded text file (SHA: 48bfdd6bd39ac8204fc106f5b3385d1bfc99be0d)
 # LLM-AI-Skill-Wiki
 
 A curated master collection of AI agent "skills" (compatible with Claude Code, Codex, Cursor, Gemini CLI, and other agent harnesses) accumulated from forks of public repositories, plus vetted trusted/popular sources discovered directly on GitHub. Each folder below summarizes one skill collection, its capabilities, and links back to the original source.
@@ -120,6 +121,7 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 105 | [deeppapernote](deeppapernote/) | Research | Deep-reading workflow that turns papers into evidence-grounded, illustrated, linked Obsidian notes, with paper-type-specific structure and quality checks. | [917Dhj/DeepPaperNote](https://github.com/917Dhj/DeepPaperNote) | MIT-licensed implementation with regression tests over real papers, explicit no-fabrication boundaries, and documented plugin/tooling workflows. |
 | 106 | [adobe-skills](adobe-skills/) | Official API / Product Skills | Adobe's official Agent Skills and plugin collection for Analytics, Customer Journey Analytics, AEM, App Builder, Workfront, Commerce, developer tooling, and creative workflows. | [adobe/skills](https://github.com/adobe/skills) | Official Adobe repository; Apache-2.0 licensed, extensively documented, multi-harness installation paths, and a substantial product-specific skill catalog. |
 | 107 | [aws-devops-agent-tools](aws-devops-agent-tools/) | Cloud Operations / SRE | AWS DevOps Agent skills, custom agents, MCP servers, and infrastructure templates for incident response, root-cause analysis, health reporting, and operational troubleshooting. | [aws/tools-for-devops-agent](https://github.com/aws/tools-for-devops-agent) | Official AWS repository; Apache-2.0 licensed, follows the Agent Skills specification, documents IAM/security prerequisites, and provides public catalogs and deployment guidance. |
+| 108 | [posit-skills](posit-skills/) | Official API / Product Skills | Posit's official Agent Skills for R/Python development, GitHub workflows, package maintenance, Quarto, Shiny, ggsql, and Posit Connect. | [posit-dev/skills](https://github.com/posit-dev/skills) | Official Posit repository; MIT licensed, open-standard, multi-harness documentation, and a substantial product-focused catalog. |
 
 ## How this wiki is organized
 
@@ -143,7 +145,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Workspace architecture**: icm-architect
 - **Agent personas**: agency-agents
 - **Official standard / spec**: anthropics-skills, microsoft-skills
-- **Official API / product skills**: venice-skills, databricks-agent-skills, adobe-skills
+- **Official API / product skills**: venice-skills, databricks-agent-skills, adobe-skills, posit-skills
 - **Cloud Operations / SRE**: aws-devops-agent-tools
 - **Mojo / ML infrastructure**: modular-skills
 - **Mobile / UI development**: compose-skill
