@@ -123,6 +123,8 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 108 | [posit-skills](posit-skills/) | Official API / Product Skills | Posit's official Agent Skills for R/Python development, GitHub workflows, package maintenance, Quarto, Shiny, ggsql, and Posit Connect. | [posit-dev/skills](https://github.com/posit-dev/skills) | Official Posit repository; MIT licensed, open-standard, multi-harness documentation, and a substantial product-focused catalog. |
 | 109 | [obsidian-skills](obsidian-skills/) | Official API / Product Skills | Official Obsidian Agent Skills for Obsidian Markdown, Bases, JSON Canvas, CLI, Headless, Defuddle, and Knap, following the open Agent Skills specification. | [obsidianmd/obsidian-skills](https://github.com/obsidianmd/obsidian-skills) | Official Obsidian repository; specification-compliant, multi-harness installation paths, clear product documentation, and 51k+ stars. |
 | 110 | [openviking](openviking/) | Agent Memory / Context Infrastructure | Open-source context database that unifies agent knowledge, long-term memory, and skills in an inspectable `viking://` filesystem with scoped retrieval and multi-agent integrations. | [volcengine/OpenViking](https://github.com/volcengine/OpenViking) | Official Volcano Engine project; AGPLv3, 42k+ stars, public SDK/CLI/docs, security guidance, benchmark reports, and active maintenance. |
+| 111 | [microsoft-waza](microsoft-waza/) | Agent Evaluation / Quality | Microsoft's open-source CLI and framework for authoring, testing, measuring, and improving agent workflows, skills, and custom agents with reproducible evaluation evidence. | [microsoft/waza](https://github.com/microsoft/waza) | Official Microsoft repository; Apache-2.0, public docs, release artifacts, tests, CI, and 1.5k+ stars. |
+| 112 | [ros2-engineering-skills](ros2-engineering-skills/) | Robotics / ROS 2 | Production-oriented ROS 2 skill covering QoS, lifecycle, tf2, ros2_control, Nav2, MoveIt 2, perception, testing, deployment, and evidence-bound diagnostics. | [dbwls99706/ros2-engineering-skills](https://github.com/dbwls99706/ros2-engineering-skills) | Apache-2.0, versioned releases, static validators, regression tests, multi-distribution CI, provenance verification, and clear hardware-safety boundaries. |
 
 ## How this wiki is organized
 
@@ -165,7 +167,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Marketplace**: daymade-claude-code-skills, claude-plugins-official, buildwithclaude
 - **Multi-domain skills**: claude-skills
 - **Office / Agent tooling**: genoffice, lark-cli-skills
-- **Agent evaluation / quality**: nvidia-skillevaluator
+- **Agent evaluation / quality**: nvidia-skillevaluator, microsoft-waza
 - **Agent security**: nvidia-skillspector, hol-guard, cisco-skill-scanner, clawsec
 - **Skill optimization / training**: SkillOpt, skillhone
 - **.NET development**: dotnet-skills
@@ -178,6 +180,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Salesforce / Agentforce**: salesforce-skills
 - **Sports / live data**: sports-skills
 - **Trading / broker APIs**: alpaca-skills
+- **Robotics / ROS 2**: ros2-engineering-skills
 - **Curated skill collections**: agentic-awesome-skills, ok-skills
 - **Curated research**: awesome-vibe-research
 - **Skill registry / governance**: skillhub, tech-leads-agent-skills, agentic-resource-registry
