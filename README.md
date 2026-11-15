@@ -137,9 +137,10 @@ Each skill has its own folder containing a `README.md` with:
 
 This repo is a personal reference wiki curated from forked repos and vetted GitHub research, not a redistribution package. For the latest version of any skill, always check the linked source repository — and give the original authors a star!
 
+| 114 | [seo-skills](seo-skills/) | SEO / GEO | 30 output-oriented SEO, GEO, SERP research, proof-content, link-building, and conversion-copywriting skills for Agent Skills-compatible tools. | [Illyism/seo-skills](https://github.com/Illyism/seo-skills) | MIT-licensed, actively maintained, follows the Agent Skills format, and had 1,250+ stars and 100+ forks when reviewed. |
 ## Categories at a glance
 
-- **SEO / GEO**: claude-seo, geo-seo-claude, seo
+- **SEO / GEO**: claude-seo, geo-seo-claude, seo, seo-skills
 - **Marketing**: marketingskills
 - **Research**: last30days-skill, research-toolkit, ai-research-skills, paper-search-pro, deeppapernote
 - **Engineering workflow**: agent-skills, everything-claude-code, agents-marketplace, skills-real-engineers, orchestkit, autoresearch, openclaw-agent-skills, dzhng-skills, rstack
