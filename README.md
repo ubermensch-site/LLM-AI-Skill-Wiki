@@ -126,6 +126,11 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 111 | [microsoft-waza](microsoft-waza/) | Agent Evaluation / Quality | Microsoft's open-source CLI and framework for authoring, testing, measuring, and improving agent workflows, skills, and custom agents with reproducible evaluation evidence. | [microsoft/waza](https://github.com/microsoft/waza) | Official Microsoft repository; Apache-2.0, public docs, release artifacts, tests, CI, and 1.5k+ stars. |
 | 112 | [ros2-engineering-skills](ros2-engineering-skills/) | Robotics / ROS 2 | Production-oriented ROS 2 skill covering QoS, lifecycle, tf2, ros2_control, Nav2, MoveIt 2, perception, testing, deployment, and evidence-bound diagnostics. | [dbwls99706/ros2-engineering-skills](https://github.com/dbwls99706/ros2-engineering-skills) | Apache-2.0, versioned releases, static validators, regression tests, multi-distribution CI, provenance verification, and clear hardware-safety boundaries. |
 | 113 | [awesome-ai-agent-skills](awesome-ai-agent-skills/) | Curated Skill Collection | 103 complete, installable `SKILL.md` workflows for agent engineering, security, coding, research, data, DevOps, documents, and business tasks across major coding agents. | [seb1n/awesome-ai-agent-skills](https://github.com/seb1n/awesome-ai-agent-skills) | MIT-licensed, cross-agent, CI-validated, with starter packs, an offline safety demo, and meaningful community traction. |
+| 114 | [seo-skills](seo-skills/) | SEO / GEO | 30 output-oriented SEO, GEO, SERP research, proof-content, link-building, and conversion-copywriting skills for Agent Skills-compatible tools. | [Illyism/seo-skills](https://github.com/Illyism/seo-skills) | MIT-licensed, actively maintained, follows the Agent Skills format, and had 1,250+ stars and 100+ forks when reviewed. |
+| 115 | [skill-up](skill-up/) | Agent Evaluation / Quality | Alibaba's open-source CLI for evaluating Agent Skills, agents, and workspaces with declarative cases, multi-engine execution, structured reports, and evidence-backed skill evolution. | [alibaba/skill-up](https://github.com/alibaba/skill-up) | Official Alibaba repository; Apache-2.0 licensed, CI-ready, documented across Claude Code/Codex/Qoder, with a bundled skill-upper workflow and public release/docs. |
+| 116 | [oh-my-agent](oh-my-agent/) | Agent Workflow / Orchestration | Cross-agent development team with 12 specialist roles, 20 workflows, 32 on-demand skills, persistent orchestration, and verification gates for coding projects. | [first-fluke/oh-my-agent](https://github.com/first-fluke/oh-my-agent) | MIT-licensed, npm-distributed, multi-runtime documented, with tests, trigger-evaluation corpus, safety gates, and 1.4k+ stars. |
+| 117 | [geo-sleuth](geo-sleuth/) | Geolocation / Visual Research | Evidence-driven photo geolocation skill that combines OSM geometry, elevation skylines, satellite imagery, street view, and reproducible reports across major agents. | [Oldcircle/geo-sleuth](https://github.com/Oldcircle/geo-sleuth) | MIT-licensed, standard SKILL.md format, detailed case studies, benchmark tables, regression checkpoints, and 7k+ stars. |
+| 118 | [openmontage](openmontage/) | Video / Motion | Open-source agentic video-production system with 10+ pipelines, stage-director skills, provider/tool registries, review gates, and reproducible rendering workflows. | [OpenMontageInc/OpenMontage](https://github.com/OpenMontageInc/OpenMontage) | AGPLv3, 80k+ stars, extensive pipeline/skill documentation, tests, quality gates, and transparent provider/cost controls. |
 
 ## How this wiki is organized
 
@@ -137,7 +142,6 @@ Each skill has its own folder containing a `README.md` with:
 
 This repo is a personal reference wiki curated from forked repos and vetted GitHub research, not a redistribution package. For the latest version of any skill, always check the linked source repository — and give the original authors a star!
 
-| 114 | [seo-skills](seo-skills/) | SEO / GEO | 30 output-oriented SEO, GEO, SERP research, proof-content, link-building, and conversion-copywriting skills for Agent Skills-compatible tools. | [Illyism/seo-skills](https://github.com/Illyism/seo-skills) | MIT-licensed, actively maintained, follows the Agent Skills format, and had 1,250+ stars and 100+ forks when reviewed. |
 ## Categories at a glance
 
 - **SEO / GEO**: claude-seo, geo-seo-claude, seo, seo-skills
@@ -162,20 +166,20 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Skill infrastructure**: SkillCorpus, vercel-skills-cli, skillmd, skillhone, context-mode, terminal-skills, skillshare, tinte
 - **Visual iteration / 3D**: dream-loop
 - **Agent runtime**: forge
-- **Agent harness / orchestration**: openrig
+- **Agent harness / orchestration**: openrig, oh-my-agent
 - **Agent quality / configuration**: agnix
 - **Agent / Harness tooling**: dsh-hub-cli, bitbucket-cli
 - **Agent framework / runtime**: fast-agent
 - **Marketplace**: daymade-claude-code-skills, claude-plugins-official, buildwithclaude
 - **Multi-domain skills**: claude-skills
 - **Office / Agent tooling**: genoffice, lark-cli-skills
-- **Agent evaluation / quality**: nvidia-skillevaluator, microsoft-waza
+- **Agent evaluation / quality**: nvidia-skillevaluator, microsoft-waza, skill-up
 - **Agent security**: nvidia-skillspector, hol-guard, cisco-skill-scanner, clawsec
 - **Skill optimization / training**: SkillOpt, skillhone
 - **.NET development**: dotnet-skills
 - **Power Platform development**: power-platform-skills
 - **Output / visualization**: answer-me-with-html, html-anything
-- **Video / Motion**: onetake, code-animation-prompts, video-recap-skills
+- **Video / Motion**: onetake, code-animation-prompts, video-recap-skills, openmontage
 - **Short drama / motion comics**: drama-skills
 - **Game development**: awesome-gamedev-agent-skills, universal-modder
 - **Google Cloud / Product Skills**: google-skills
@@ -190,6 +194,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Agent memory / context infrastructure**: memsearch, openviking
 - **Game development / visual assets**: sprite-gen
 - **Interactive diagrams**: archify
+- **Geolocation / visual research**: geo-sleuth
 - **Tax / accounting**: openaccountants
 
 ## How to install/use
