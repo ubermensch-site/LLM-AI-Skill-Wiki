@@ -78,6 +78,8 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 63 | [skillshare](skillshare/) | Skill Infrastructure | Cross-agent CLI and configuration manager that syncs skills, agents, rules, MCP connections, hooks, and plugins across coding tools with built-in auditing. | [runkids/skillshare](https://github.com/runkids/skillshare) | MIT-licensed, substantial Go implementation, cross-platform releases, tests, detailed documentation, and strong community traction. |
 | 64 | [sciagent-skills](sciagent-skills/) | Science / Research | 199 structured scientific skills for genomics, bioinformatics, drug discovery, proteomics, biostatistics, lab automation, and scientific writing. | [jaechang-hits/SciAgent-Skills](https://github.com/jaechang-hits/SciAgent-Skills) | CC-BY-4.0, registry validation, multi-agent integration templates, and a project-reported BixBench benchmark result. |
 | 65 | [adobe-skills](adobe-skills/) | Official API / Product Skills | Adobe's official Agent Skills and plugin collection for Analytics, Customer Journey Analytics, AEM, App Builder, Workfront, Commerce, developer tooling, and creative workflows. | [adobe/skills](https://github.com/adobe/skills) | Official Adobe repository; Apache-2.0 licensed, extensively documented, multi-harness installation paths, and a substantial product-specific skill catalog. |
+| 66 | [auto-empirical-research-skills](auto-empirical-research-skills/) | Science / Research | Large empirical-research collection covering literature review, data, causal inference, estimation, robustness, publication, and peer review across 78 collections and 1,100+ skills. | [brycewang-stanford/Auto-Empirical-Research-Skills](https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills) | Maintained by the Stanford REAP × StatsPAI team; includes catalog validation, benchmark/evaluation tooling, OpenSSF Scorecard, and a published security scan. |
+| 67 | [awesome-ai-plugins](awesome-ai-plugins/) | Curated List | Cross-platform catalog of plugins, Agent Skills, MCP servers, apps, and agent tools for Claude Code, Codex, Gemini CLI, Cursor, OpenCode, and more. | [hashgraph-online/awesome-ai-plugins](https://github.com/hashgraph-online/awesome-ai-plugins) | Apache-2.0 curated registry with a large machine-readable catalog, validation tests, contribution guidance, and broad community traction. |
 | 66 | [ok-skills](ok-skills/) | Multi-domain Skills | 32 reusable skills and `CLAUDE.md` / `AGENTS.md` playbooks for Codex, Claude Code, Cursor, OpenClaw, and other compatible agents. | [mxyhi/ok-skills](https://github.com/mxyhi/ok-skills) | Maintained, multilingual, documented collection with explicit upstream references and broad cross-agent support. |
 | 67 | [interface-skills](interface-skills/) | Design & UI/UX | Skills for accessibility, layout, typography, color, product writing, UI polish, component states, design-image implementation, and interface review. | [jakubkrehel/skills](https://github.com/jakubkrehel/skills) | Authored by Jakub Krehel; 11,000+ stars and concrete WCAG, design-system, and review guidance. |
 | 68 | [context-mode](context-mode/) | Skill Infrastructure / Agent Runtime | MCP server and multi-agent plugin that routes large tool output through sandboxing, compression, search, and progressive disclosure to reduce context pressure. | [mksglu/context-mode](https://github.com/mksglu/context-mode) | 33k+ stars, substantial implementation and security documentation, active npm distribution; Elastic License 2.0 is clearly disclosed. |
@@ -147,7 +149,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 
 - **SEO / GEO**: claude-seo, geo-seo-claude, seo, seo-skills
 - **Marketing**: marketingskills
-- **Research**: last30days-skill, research-toolkit, ai-research-skills, paper-search-pro, deeppapernote
+- **Research**: last30days-skill, research-toolkit, ai-research-skills, paper-search-pro, deeppapernote, auto-empirical-research-skills
 - **Engineering workflow**: agent-skills, everything-claude-code, agents-marketplace, skills-real-engineers, orchestkit, autoresearch, openclaw-agent-skills, dzhng-skills, rstack
 - **Coding style / guidelines**: andrej-karpathy-skills, caveman, ponytail
 - **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill, ux-ui-agent-skills, styleseed, oil-ui, unslop, baoyu-design, oh-my-design, awesome-design-skills, interface-skills
@@ -161,7 +163,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Mobile / UI development**: compose-skill
 - **Scientific modeling**: mathodology
 - **Dev methodology**: superpowers
-- **Curated "awesome" lists**: awesome-claude-skills, awesome-claude-code, awesome-agent-skills, awesome-llm-apps, awesome-copilot, awesome-ai-agent-skills
+- **Curated "awesome" lists**: awesome-claude-skills, awesome-claude-code, awesome-agent-skills, awesome-llm-apps, awesome-copilot, awesome-ai-agent-skills, awesome-ai-plugins
 - **Science / research**: scientific-agent-skills, clawbio, sciagent-skills
 - **Cybersecurity**: cybersecurity-skills
 - **Skill infrastructure**: SkillCorpus, vercel-skills-cli, skillmd, skillhone, context-mode, terminal-skills, skillshare, tinte
