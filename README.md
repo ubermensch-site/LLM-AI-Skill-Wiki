@@ -134,6 +134,7 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 119 | [apify-agent-skills](apify-agent-skills/) | Official API / Product Skills | Apify's official production skills for web scraping, Actor development, Actorization, integrations, and Git-connected deployments across major coding agents. | [apify/agent-skills](https://github.com/apify/agent-skills) | Official Apify repository; Apache-2.0 licensed, substantive multi-skill implementation and references, cross-agent installation, and 2.5k+ stars. |
 | 120 | [auto-empirical-research-skills](auto-empirical-research-skills/) | Science / Research | Large empirical-research collection covering literature review, data, causal inference, estimation, robustness, publication, and peer review across 78 collections and 1,100+ skills. | [brycewang-stanford/Auto-Empirical-Research-Skills](https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills) | Maintained by the Stanford REAP × StatsPAI team; includes catalog validation, benchmark/evaluation tooling, OpenSSF Scorecard, and a published security scan. |
 | 121 | [awesome-ai-plugins](awesome-ai-plugins/) | Curated List | Cross-platform catalog of plugins, Agent Skills, MCP servers, apps, and agent tools for Claude Code, Codex, Gemini CLI, Cursor, OpenCode, and more. | [hashgraph-online/awesome-ai-plugins](https://github.com/hashgraph-online/awesome-ai-plugins) | Apache-2.0 curated registry with a large machine-readable catalog, validation tests, contribution guidance, and broad community traction. |
+| 122 | [shader-skills](shader-skills/) | Graphics / Shaders | GLSL and Shadertoy skill with 197 documented functions across 21 modules, dependency bundling, WebGL2 checks, GPU property tests, and interactive studies. | [gokayfem/shader-skills](https://github.com/gokayfem/shader-skills) | MIT-licensed, release-backed repository with compile-checked examples, extensive technical references, automated verification, and 483 stars / 37 forks when reviewed. |
 
 ## How this wiki is organized
 
@@ -153,6 +154,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Engineering workflow**: agent-skills, everything-claude-code, agents-marketplace, skills-real-engineers, orchestkit, autoresearch, openclaw-agent-skills, dzhng-skills, rstack
 - **Coding style / guidelines**: andrej-karpathy-skills, caveman, ponytail
 - **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill, ux-ui-agent-skills, styleseed, oil-ui, unslop, baoyu-design, oh-my-design, awesome-design-skills, interface-skills
+- **Graphics / Shaders**: shader-skills
 - **Writing**: no-ai-slop, oh-story-claudecode
 - **Workspace architecture**: icm-architect
 - **Agent personas**: agency-agents
