@@ -136,6 +136,10 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 121 | [awesome-ai-plugins](awesome-ai-plugins/) | Curated List | Cross-platform catalog of plugins, Agent Skills, MCP servers, apps, and agent tools for Claude Code, Codex, Gemini CLI, Cursor, OpenCode, and more. | [hashgraph-online/awesome-ai-plugins](https://github.com/hashgraph-online/awesome-ai-plugins) | Apache-2.0 curated registry with a large machine-readable catalog, validation tests, contribution guidance, and broad community traction. |
 | 122 | [shader-skills](shader-skills/) | Graphics / Shaders | GLSL and Shadertoy skill with 197 documented functions across 21 modules, dependency bundling, WebGL2 checks, GPU property tests, and interactive studies. | [gokayfem/shader-skills](https://github.com/gokayfem/shader-skills) | MIT-licensed, release-backed repository with compile-checked examples, extensive technical references, automated verification, and 483 stars / 37 forks when reviewed. |
 
+| 123 | [janestreet-agent-skills](janestreet-agent-skills/) | Education / Tutoring | Jane Street's public Socratic tutor skill: diagnostic, skill map, one-question-at-a-time teaching, spaced review, and final assessment. | [janestreet/agent_skills](https://github.com/janestreet/agent_skills) | Published by Jane Street; the source says these skills are exported from its internal repository and used day to day. |
+| 124 | [vercel-agent-skills](vercel-agent-skills/) | Official API / Product Skills | Vercel's official collection for React, Next.js, React Native, web design, writing, deployments, and Vercel cost/performance optimization. | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | Published by Vercel Labs; Agent Skills format, documented engineering guidance, discovery tooling, and MIT license. |
+| 125 | [cloudflare-security-audit-skill](cloudflare-security-audit-skill/) | Cybersecurity | Cloudflare's structured security-audit workflow covering reconnaissance, coverage-led hunting, independent validation, evidence verification, and report generation. | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | Official Cloudflare project with substantive workflow docs, validators, tests, sandbox requirements, and MIT license. |
+
 ## How this wiki is organized
 
 Each skill has its own folder containing a `README.md` with:
@@ -159,7 +163,8 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Workspace architecture**: icm-architect
 - **Agent personas**: agency-agents
 - **Official standard / spec**: anthropics-skills, microsoft-skills
-- **Official API / product skills**: venice-skills, databricks-agent-skills, adobe-skills, posit-skills, apify-agent-skills
+- **Education / tutoring**: janestreet-agent-skills
+- **Official API / product skills**: venice-skills, databricks-agent-skills, adobe-skills, posit-skills, apify-agent-skills, vercel-agent-skills
 - **Cloud Operations / SRE**: aws-devops-agent-tools
 - **Mojo / ML infrastructure**: modular-skills
 - **Mobile / UI development**: compose-skill
@@ -167,7 +172,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Dev methodology**: superpowers
 - **Curated "awesome" lists**: awesome-claude-skills, awesome-claude-code, awesome-agent-skills, awesome-llm-apps, awesome-copilot, awesome-ai-agent-skills, awesome-ai-plugins
 - **Science / research**: scientific-agent-skills, clawbio, sciagent-skills
-- **Cybersecurity**: cybersecurity-skills
+- **Cybersecurity**: cybersecurity-skills, cloudflare-security-audit-skill
 - **Skill infrastructure**: SkillCorpus, vercel-skills-cli, skillmd, skillhone, context-mode, terminal-skills, skillshare, tinte
 - **Visual iteration / 3D**: dream-loop
 - **Agent runtime**: forge
