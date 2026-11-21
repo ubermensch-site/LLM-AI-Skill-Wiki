@@ -140,6 +140,11 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 124 | [vercel-agent-skills](vercel-agent-skills/) | Official API / Product Skills | Vercel's official collection for React, Next.js, React Native, web design, writing, deployments, and Vercel cost/performance optimization. | [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills) | Published by Vercel Labs; Agent Skills format, documented engineering guidance, discovery tooling, and MIT license. |
 | 125 | [cloudflare-security-audit-skill](cloudflare-security-audit-skill/) | Cybersecurity | Cloudflare's structured security-audit workflow covering reconnaissance, coverage-led hunting, independent validation, evidence verification, and report generation. | [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) | Official Cloudflare project with substantive workflow docs, validators, tests, sandbox requirements, and MIT license. |
 
+| 126 | [claude-skills](claude-skills/) | Multi-domain Skills | 434 production-ready skills across engineering, product, marketing, research, compliance, finance, and executive workflows, with plugins for 13 coding-agent platforms. | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | MIT-licensed, actively maintained collection with plain-language load tests, published verification results, scripts, references, and 30k+ stars when reviewed. |
+| 127 | [ai-research-skills](ai-research-skills/) | Research | Catalog of 17 portable research skills organized into an eight-stage lifecycle, with evidence-aware handoffs, explicit human gates, and optional runtime/plugins. | [WenyuChiou/ai-research-skills](https://github.com/WenyuChiou/ai-research-skills) | MIT-licensed, detailed research workflow with schemas, reproducible examples, compatibility notes, and 685+ stars when reviewed. |
+| 128 | [sports-skills](sports-skills/) | Sports / Live Data | Agent Skills and a Python SDK for scores, stats, news, and prediction-market data, with dedicated skills, reference coverage, canonical output, and record/replay support. | [machina-sports/sports-skills](https://github.com/machina-sports/sports-skills) | MIT-licensed implementation with explicit read-only defaults, source/licensing caveats, capability metadata, and 273+ stars when reviewed. |
+| 129 | [skillhawk](skillhawk/) | Agent Security | Static scanner and hands-on lab for risky `SKILL.md` instructions and MCP configs, covering command execution, credential access, persistence, exfiltration, and prompt injection. | [Berserk-hub150/skillhawk](https://github.com/Berserk-hub150/skillhawk) | MIT-licensed, CI-backed tool with a public 48-fixture benchmark, SARIF output, remediation guidance, and a clear non-execution security model. |
+
 ## How this wiki is organized
 
 Each skill has its own folder containing a `README.md` with:
@@ -184,7 +189,8 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Multi-domain skills**: claude-skills
 - **Office / Agent tooling**: genoffice, lark-cli-skills
 - **Agent evaluation / quality**: nvidia-skillevaluator, microsoft-waza, skill-up
-- **Agent security**: nvidia-skillspector, hol-guard, cisco-skill-scanner, clawsec
+- **Agent security**: nvidia-skillspector, hol-guard, cisco-skill-scanner, clawsec, skillhawk
 - **Skill optimization / training**: SkillOpt, skillhone
 - **.NET development**: dotnet-skills
 - **Power Platform development**: power-platform-skills
+- **Sports / Live Data**: sports-skills
