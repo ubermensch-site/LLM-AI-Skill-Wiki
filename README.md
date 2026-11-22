@@ -144,6 +144,10 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 127 | [ai-research-skills](ai-research-skills/) | Research | Catalog of 17 portable research skills organized into an eight-stage lifecycle, with evidence-aware handoffs, explicit human gates, and optional runtime/plugins. | [WenyuChiou/ai-research-skills](https://github.com/WenyuChiou/ai-research-skills) | MIT-licensed, detailed research workflow with schemas, reproducible examples, compatibility notes, and 685+ stars when reviewed. |
 | 128 | [sports-skills](sports-skills/) | Sports / Live Data | Agent Skills and a Python SDK for scores, stats, news, and prediction-market data, with dedicated skills, reference coverage, canonical output, and record/replay support. | [machina-sports/sports-skills](https://github.com/machina-sports/sports-skills) | MIT-licensed implementation with explicit read-only defaults, source/licensing caveats, capability metadata, and 273+ stars when reviewed. |
 | 129 | [skillhawk](skillhawk/) | Agent Security | Static scanner and hands-on lab for risky `SKILL.md` instructions and MCP configs, covering command execution, credential access, persistence, exfiltration, and prompt injection. | [Berserk-hub150/skillhawk](https://github.com/Berserk-hub150/skillhawk) | MIT-licensed, CI-backed tool with a public 48-fixture benchmark, SARIF output, remediation guidance, and a clear non-execution security model. |
+| 130 | [aws-agent-toolkit-for-aws](aws-agent-toolkit-for-aws/) | Official API / Product Skills | AWS's official toolkit of agent skills, plugins, MCP access, and guardrails for building, deploying, and managing AWS applications across major coding agents. | [aws/agent-toolkit-for-aws](https://github.com/aws/agent-toolkit-for-aws) | Official AWS repository; Apache-2.0 licensed, CI-backed, documented across Claude Code, Codex, Cursor, Devin, Kiro, and fx, with IAM, audit, and sandboxing guidance. |
+| 131 | [ffmpeg-skill](ffmpeg-skill/) | Video / Motion | Local-first video editing skill with 42 FFmpeg tools, machine-readable contracts, MCP support, review pages, and probe → edit → verify workflows. | [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) | Substantive 9k+ star project with CI, OpenSSF Scorecard, compatibility testing, explicit local-only boundaries, and contract/schema drift tests. |
+| 132 | [app-store-compliance](app-store-compliance/) | Mobile / App Compliance | Cross-platform App Store and Google Play compliance playbook with a pre-submission guard, ranked findings, tool hooks, and explicit human-review boundaries. | [mjmirza/app-store-compliance](https://github.com/mjmirza/app-store-compliance) | 3.5k+ stars, CI-backed multi-agent installer, source-linked Apple/Google rules, doctor verification, dry-run/uninstall paths, and clear scan limitations. |
+| 133 | [nature-paper-skills](nature-paper-skills/) | Science / Research | 27 evidence-grounded Codex and Claude Code skills for life-science and computational-biology manuscripts, figures, submission audits, and reviewer rebuttals. | [Boom5426/Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) | MIT-licensed research workflow with documented examples, installer/evaluation checks, provenance tracking, and explicit anti-fabrication boundaries. |
 
 ## How this wiki is organized
 
@@ -169,16 +173,18 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Agent personas**: agency-agents
 - **Official standard / spec**: anthropics-skills, microsoft-skills
 - **Education / tutoring**: janestreet-agent-skills
-- **Official API / product skills**: venice-skills, databricks-agent-skills, adobe-skills, posit-skills, apify-agent-skills, vercel-agent-skills
+- **Official API / product skills**: venice-skills, databricks-agent-skills, adobe-skills, posit-skills, apify-agent-skills, vercel-agent-skills, aws-agent-toolkit-for-aws
 - **Cloud Operations / SRE**: aws-devops-agent-tools
 - **Mojo / ML infrastructure**: modular-skills
 - **Mobile / UI development**: compose-skill
+- **Mobile / app compliance**: app-store-compliance
 - **Scientific modeling**: mathodology
 - **Dev methodology**: superpowers
 - **Curated "awesome" lists**: awesome-claude-skills, awesome-claude-code, awesome-agent-skills, awesome-llm-apps, awesome-copilot, awesome-ai-agent-skills, awesome-ai-plugins
-- **Science / research**: scientific-agent-skills, clawbio, sciagent-skills
+- **Science / research**: scientific-agent-skills, clawbio, sciagent-skills, nature-paper-skills
 - **Cybersecurity**: cybersecurity-skills, cloudflare-security-audit-skill
 - **Skill infrastructure**: SkillCorpus, vercel-skills-cli, skillmd, skillhone, context-mode, terminal-skills, skillshare, tinte
+- **Video / Motion**: code-animation-prompts, video-recap-skills, openmontage, ffmpeg-skill
 - **Visual iteration / 3D**: dream-loop
 - **Agent runtime**: forge
 - **Agent harness / orchestration**: openrig, oh-my-agent
