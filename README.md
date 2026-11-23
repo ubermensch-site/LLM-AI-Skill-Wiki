@@ -148,6 +148,10 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 131 | [ffmpeg-skill](ffmpeg-skill/) | Video / Motion | Local-first video editing skill with 42 FFmpeg tools, machine-readable contracts, MCP support, review pages, and probe → edit → verify workflows. | [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill) | Substantive 9k+ star project with CI, OpenSSF Scorecard, compatibility testing, explicit local-only boundaries, and contract/schema drift tests. |
 | 132 | [app-store-compliance](app-store-compliance/) | Mobile / App Compliance | Cross-platform App Store and Google Play compliance playbook with a pre-submission guard, ranked findings, tool hooks, and explicit human-review boundaries. | [mjmirza/app-store-compliance](https://github.com/mjmirza/app-store-compliance) | 3.5k+ stars, CI-backed multi-agent installer, source-linked Apple/Google rules, doctor verification, dry-run/uninstall paths, and clear scan limitations. |
 | 133 | [nature-paper-skills](nature-paper-skills/) | Science / Research | 27 evidence-grounded Codex and Claude Code skills for life-science and computational-biology manuscripts, figures, submission audits, and reviewer rebuttals. | [Boom5426/Nature-Paper-Skills](https://github.com/Boom5426/Nature-Paper-Skills) | MIT-licensed research workflow with documented examples, installer/evaluation checks, provenance tracking, and explicit anti-fabrication boundaries. |
+| 134 | [claude-red](claude-red/) | Cybersecurity | 78 offensive-security `SKILL.md` workflows spanning web, identity, cloud, wireless, mobile, exploit development, fuzzing, infrastructure, reconnaissance, and AI security. | [SnailSploit/Claude-Red](https://github.com/SnailSploit/Claude-Red) | MIT-licensed, authored by SnailSploit, with an install script, generated skill index, explicit authorized-use guidance, and recent frontmatter/technique maintenance. |
+| 135 | [product-engineer-skills](product-engineer-skills/) | Product / UX Engineering | Product-engineering skills for research, feature briefs, happy- and unhappy-path audits, usability tests, adoption, analytics, experiments, accessibility, and launch review. | [Trystan-SA/product-engineer-skills](https://github.com/Trystan-SA/product-engineer-skills) | Portable Claude Code/Codex package with plugin manifests, recent workflow additions, frontmatter and script tests, plugin validation, and Codex discovery checks. |
+| 136 | [mengto-skills](mengto-skills/) | Design & UI/UX | Large portable collection of design, UI, 3D, illustration, game, media, and workflow skills for Codex, Claude, Cursor, and other coding agents. | [MengTo/Skills](https://github.com/MengTo/Skills) | Authored by Meng To, actively maintained, MIT-licensed, and organized as browsable `SKILL.md` procedures with references, demos, assets, and clear portability guidance. |
+| 137 | [hve-core](hve-core/) | Official standard / spec | Microsoft’s opinionated agentic SDLC framework with reusable agents, instructions, skills, governance, and Research–Plan–Implement workflows. | [microsoft/hve-core](https://github.com/microsoft/hve-core) | Official Microsoft project with MIT licensing, CodeQL, dependency review, OpenSSF Scorecard, governance documentation, and explicit adoption limitations. |
 
 ## How this wiki is organized
 
@@ -163,15 +167,16 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 
 - **SEO / GEO**: claude-seo, geo-seo-claude, seo, seo-skills
 - **Marketing**: marketingskills
+- **Product / UX engineering**: product-engineer-skills
 - **Research**: last30days-skill, research-toolkit, ai-research-skills, paper-search-pro, deeppapernote, auto-empirical-research-skills
 - **Engineering workflow**: agent-skills, everything-claude-code, agents-marketplace, skills-real-engineers, orchestkit, autoresearch, openclaw-agent-skills, dzhng-skills, rstack
 - **Coding style / guidelines**: andrej-karpathy-skills, caveman, ponytail
-- **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill, ux-ui-agent-skills, styleseed, oil-ui, unslop, baoyu-design, oh-my-design, awesome-design-skills, interface-skills
+- **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill, ux-ui-agent-skills, styleseed, oil-ui, unslop, baoyu-design, oh-my-design, awesome-design-skills, interface-skills, mengto-skills
 - **Graphics / Shaders**: shader-skills
 - **Writing**: no-ai-slop, oh-story-claudecode
 - **Workspace architecture**: icm-architect
 - **Agent personas**: agency-agents
-- **Official standard / spec**: anthropics-skills, microsoft-skills
+- **Official standard / spec**: anthropics-skills, microsoft-skills, hve-core
 - **Education / tutoring**: janestreet-agent-skills
 - **Official API / product skills**: venice-skills, databricks-agent-skills, adobe-skills, posit-skills, apify-agent-skills, vercel-agent-skills, aws-agent-toolkit-for-aws
 - **Cloud Operations / SRE**: aws-devops-agent-tools
@@ -182,7 +187,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Dev methodology**: superpowers
 - **Curated "awesome" lists**: awesome-claude-skills, awesome-claude-code, awesome-agent-skills, awesome-llm-apps, awesome-copilot, awesome-ai-agent-skills, awesome-ai-plugins
 - **Science / research**: scientific-agent-skills, clawbio, sciagent-skills, nature-paper-skills
-- **Cybersecurity**: cybersecurity-skills, cloudflare-security-audit-skill
+- **Cybersecurity**: cybersecurity-skills, cloudflare-security-audit-skill, claude-red
 - **Skill infrastructure**: SkillCorpus, vercel-skills-cli, skillmd, skillhone, context-mode, terminal-skills, skillshare, tinte
 - **Video / Motion**: code-animation-prompts, video-recap-skills, openmontage, ffmpeg-skill
 - **Visual iteration / 3D**: dream-loop
