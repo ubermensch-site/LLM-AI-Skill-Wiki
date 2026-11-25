@@ -157,6 +157,10 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 139 | [jeffallan-claude-skills](jeffallan-claude-skills/) | Engineering workflow | 71 specialized full-stack skills and 13 workflow commands for discovery, specs, ticket execution, testing, review, and completion in Claude Code. | [Jeffallan/claude-skills](https://github.com/Jeffallan/claude-skills) | MIT-licensed plugin by an established full-stack and security engineering author, with CI, docs, releases, and substantive agents and workflow tooling. |
 | 140 | [kicad-happy](kicad-happy/) | Electronics / EDA | Eleven skills for KiCad schematic and PCB analysis, SPICE, EMC, datasheets, BOMs, sourcing, and fabrication review, with GitHub Action support. | [aklofas/kicad-happy](https://github.com/aklofas/kicad-happy) | MIT-licensed project with CI, release and validation documentation, an Awesome KiCad mention, and a large regression corpus. |
 
+| 141 | [mongodb-agent-skills](mongodb-agent-skills/) | Official API / Product Skills | Official MongoDB Agent Skills for Atlas and self-managed deployments, covering queries, schemas, optimization, Search, Vector Search, deployment guidance, and connections across major coding agents. | [mongodb/agent-skills](https://github.com/mongodb/agent-skills) | Official MongoDB repository; Apache-2.0, CI-validated, security-minded credential handling, documented plugins, and active maintenance. |
+| 142 | [scenario-agent-skills](scenario-agent-skills/) | Visual iteration / 3D | Scenario's production skills for image, video, audio, and 3D generation, brand consistency, game assets, DCC tools, MCP workflows, quality gates, and cost-aware creative production. | [scenario-labs/skills](https://github.com/scenario-labs/skills) | MIT-licensed Scenario Labs repository with CI, release automation, OpenSSF Scorecard, extensive procedural skills, and 4k+ stars. |
+| 143 | [visual-explainer](visual-explainer/) | Interactive Diagrams | Multi-harness skill for turning architecture, diffs, plans, requirements, data, and project recaps into validated HTML pages, diagrams, slide decks, and optional video/PPTX outputs. | [nicobailon/visual-explainer](https://github.com/nicobailon/visual-explainer) | MIT-licensed, 11k+ stars, active releases, browser checks, local output jail, and documented Claude Code, Pi, Codex, Cursor, OpenCode, and MCP paths. |
+
 ## How this wiki is organized
 
 Each skill has its own folder containing a `README.md` with:
@@ -183,7 +187,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Official standard / spec**: anthropics-skills, microsoft-skills, hve-core
 - **Official Qt / C++ / QML**: qt-agent-skills
 - **Education / tutoring**: janestreet-agent-skills
-- **Official API / product skills**: venice-skills, databricks-agent-skills, adobe-skills, posit-skills, apify-agent-skills, vercel-agent-skills, aws-agent-toolkit-for-aws
+- **Official API / Product Skills**: venice-skills, databricks-agent-skills, adobe-skills, posit-skills, apify-agent-skills, vercel-agent-skills, aws-agent-toolkit-for-aws, mongodb-agent-skills
 - **Cloud Operations / SRE**: aws-devops-agent-tools
 - **Mojo / ML infrastructure**: modular-skills
 - **Mobile / UI development**: compose-skill
@@ -195,9 +199,10 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Cybersecurity**: cybersecurity-skills, cloudflare-security-audit-skill, claude-red
 - **Skill infrastructure**: SkillCorpus, vercel-skills-cli, skillmd, skillhone, context-mode, terminal-skills, skillshare, tinte
 - **Video / Motion**: code-animation-prompts, video-recap-skills, openmontage, ffmpeg-skill
-- **Visual iteration / 3D**: dream-loop
+- **Visual iteration / 3D**: dream-loop, scenario-agent-skills
 - **Agent runtime**: forge
 - **Agent harness / orchestration**: openrig, oh-my-agent
+- **Interactive Diagrams**: archify, visual-explainer
 - **Agent quality / configuration**: agnix
 - **Agent / Harness tooling**: dsh-hub-cli, bitbucket-cli
 - **Agent framework / runtime**: fast-agent
