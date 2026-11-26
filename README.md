@@ -160,6 +160,10 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 141 | [mongodb-agent-skills](mongodb-agent-skills/) | Official API / Product Skills | Official MongoDB Agent Skills for Atlas and self-managed deployments, covering queries, schemas, optimization, Search, Vector Search, deployment guidance, and connections across major coding agents. | [mongodb/agent-skills](https://github.com/mongodb/agent-skills) | Official MongoDB repository; Apache-2.0, CI-validated, security-minded credential handling, documented plugins, and active maintenance. |
 | 142 | [scenario-agent-skills](scenario-agent-skills/) | Visual iteration / 3D | Scenario's production skills for image, video, audio, and 3D generation, brand consistency, game assets, DCC tools, MCP workflows, quality gates, and cost-aware creative production. | [scenario-labs/skills](https://github.com/scenario-labs/skills) | MIT-licensed Scenario Labs repository with CI, release automation, OpenSSF Scorecard, extensive procedural skills, and 4k+ stars. |
 | 143 | [visual-explainer](visual-explainer/) | Interactive Diagrams | Multi-harness skill for turning architecture, diffs, plans, requirements, data, and project recaps into validated HTML pages, diagrams, slide decks, and optional video/PPTX outputs. | [nicobailon/visual-explainer](https://github.com/nicobailon/visual-explainer) | MIT-licensed, 11k+ stars, active releases, browser checks, local output jail, and documented Claude Code, Pi, Codex, Cursor, OpenCode, and MCP paths. |
+| 144 | [nvidia-skills](nvidia-skills/) | Official NVIDIA / Agent Skills | NVIDIA-verified Agent Skills and Plugins for CUDA-X, physical AI, robotics, simulation, RAG, AI Blueprints, and platform workflows across major coding agents. | [NVIDIA/skills](https://github.com/NVIDIA/skills) | Official NVIDIA repository; Apache-2.0 and CC-BY-4.0, with signed/scanned/evaluated skills and plugins, product docs, benchmarks, and 4k+ stars / 500+ forks when reviewed. |
+| 145 | [academic-research-skills](academic-research-skills/) | Research | Comprehensive Claude Code suite for research planning, literature review, evidence extraction, academic writing, peer review, revision, reproducibility, and publication. | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | Versioned releases, DOI and citation metadata, governance/changelog, extensive docs and evals, and 58k+ stars / 4k+ forks when reviewed; CC BY-NC 4.0 licensing applies. |
+| 146 | [video-director](video-director/) | Video / Motion | Code-first direction and QA workflow for deterministic HTML, Canvas, SVG, Three.js, GSAP, and Remotion videos, from treatment through measured delivery. | [win4r/video-director](https://github.com/win4r/video-director) | MIT-licensed, with methodology, references, tests, CI, timeline validation, video QA scripts, explicit evaluation notes, and 500+ stars / 50+ forks when reviewed. |
+| 147 | [antialgorithm](antialgorithm/) | Creative Direction | Creative-work skill that helps agents identify the safe first idea and move to a project-specific alternative for names, stories, visuals, UI, slogans, and concepts. | [mankidev/antialgorithm](https://github.com/mankidev/antialgorithm) | MIT-licensed and release-backed, with multilingual docs, plugin packaging, seed/history tooling, SVG checks, and 800+ stars / 50+ forks when reviewed. |
 
 ## How this wiki is organized
 
@@ -176,15 +180,17 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **SEO / GEO**: claude-seo, geo-seo-claude, seo, seo-skills
 - **Marketing**: marketingskills
 - **Product / UX engineering**: product-engineer-skills
-- **Research**: last30days-skill, research-toolkit, ai-research-skills, paper-search-pro, deeppapernote, auto-empirical-research-skills
+- **Research**: last30days-skill, research-toolkit, ai-research-skills, paper-search-pro, deeppapernote, auto-empirical-research-skills, academic-research-skills
 - **Engineering workflow**: agent-skills, everything-claude-code, agents-marketplace, skills-real-engineers, orchestkit, autoresearch, openclaw-agent-skills, dzhng-skills, rstack, jeffallan-claude-skills
 - **Coding style / guidelines**: andrej-karpathy-skills, caveman, ponytail
 - **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill, ux-ui-agent-skills, styleseed, oil-ui, unslop, baoyu-design, oh-my-design, awesome-design-skills, interface-skills, mengto-skills
+- **Creative Direction**: antialgorithm
 - **Graphics / Shaders**: shader-skills
 - **Writing**: no-ai-slop, oh-story-claudecode
 - **Workspace architecture**: icm-architect
 - **Agent personas**: agency-agents
 - **Official standard / spec**: anthropics-skills, microsoft-skills, hve-core
+- **Official NVIDIA / Agent Skills**: nvidia-skills
 - **Official Qt / C++ / QML**: qt-agent-skills
 - **Education / tutoring**: janestreet-agent-skills
 - **Official API / Product Skills**: venice-skills, databricks-agent-skills, adobe-skills, posit-skills, apify-agent-skills, vercel-agent-skills, aws-agent-toolkit-for-aws, mongodb-agent-skills
@@ -198,7 +204,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Science / research**: scientific-agent-skills, clawbio, sciagent-skills, nature-paper-skills
 - **Cybersecurity**: cybersecurity-skills, cloudflare-security-audit-skill, claude-red
 - **Skill infrastructure**: SkillCorpus, vercel-skills-cli, skillmd, skillhone, context-mode, terminal-skills, skillshare, tinte
-- **Video / Motion**: code-animation-prompts, video-recap-skills, openmontage, ffmpeg-skill
+- **Video / Motion**: code-animation-prompts, video-recap-skills, openmontage, ffmpeg-skill, video-director
 - **Visual iteration / 3D**: dream-loop, scenario-agent-skills
 - **Agent runtime**: forge
 - **Agent harness / orchestration**: openrig, oh-my-agent
