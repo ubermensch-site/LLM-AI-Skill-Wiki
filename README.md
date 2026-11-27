@@ -164,6 +164,8 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 145 | [academic-research-skills](academic-research-skills/) | Research | Comprehensive Claude Code suite for research planning, literature review, evidence extraction, academic writing, peer review, revision, reproducibility, and publication. | [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) | Versioned releases, DOI and citation metadata, governance/changelog, extensive docs and evals, and 58k+ stars / 4k+ forks when reviewed; CC BY-NC 4.0 licensing applies. |
 | 146 | [video-director](video-director/) | Video / Motion | Code-first direction and QA workflow for deterministic HTML, Canvas, SVG, Three.js, GSAP, and Remotion videos, from treatment through measured delivery. | [win4r/video-director](https://github.com/win4r/video-director) | MIT-licensed, with methodology, references, tests, CI, timeline validation, video QA scripts, explicit evaluation notes, and 500+ stars / 50+ forks when reviewed. |
 | 147 | [antialgorithm](antialgorithm/) | Creative Direction | Creative-work skill that helps agents identify the safe first idea and move to a project-specific alternative for names, stories, visuals, UI, slogans, and concepts. | [mankidev/antialgorithm](https://github.com/mankidev/antialgorithm) | MIT-licensed and release-backed, with multilingual docs, plugin packaging, seed/history tooling, SVG checks, and 800+ stars / 50+ forks when reviewed. |
+| 148 | [translate-book](translate-book/) | Translation / Documents | Agent Skill for translating complete PDF, DOCX, EPUB, or Markdown books with parallel sub-agents, glossary control, resumable runs, and validated multi-format output. | [deusyu/translate-book](https://github.com/deusyu/translate-book) | MIT-licensed, with 2.4k+ stars / 280+ forks, baseline tests, manifest validation, and documented Claude Code, Codex, Cursor, and OpenClaw compatibility. |
+| 149 | [claude-code-frontend-design-toolkit](claude-code-frontend-design-toolkit/) | Design & UI/UX | Curated toolkit of frontend design skills, plugins, MCP servers, theming, motion, design-to-code, browser testing, visual feedback, and deployment references. | [wilwaldon/Claude-Code-Frontend-Design-Toolkit](https://github.com/wilwaldon/Claude-Code-Frontend-Design-Toolkit) | Active curated guide with 1.3k+ stars / 150+ forks, 64 entries, 11 sections, and explicit install guidance for official and third-party resources. |
 
 ## How this wiki is organized
 
@@ -181,9 +183,10 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Marketing**: marketingskills
 - **Product / UX engineering**: product-engineer-skills
 - **Research**: last30days-skill, research-toolkit, ai-research-skills, paper-search-pro, deeppapernote, auto-empirical-research-skills, academic-research-skills
+- **Translation / Documents**: translate-book
 - **Engineering workflow**: agent-skills, everything-claude-code, agents-marketplace, skills-real-engineers, orchestkit, autoresearch, openclaw-agent-skills, dzhng-skills, rstack, jeffallan-claude-skills
 - **Coding style / guidelines**: andrej-karpathy-skills, caveman, ponytail
-- **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill, ux-ui-agent-skills, styleseed, oil-ui, unslop, baoyu-design, oh-my-design, awesome-design-skills, interface-skills, mengto-skills
+- **Design & UI/UX**: huashu-design, taste-skill, ui-ux-pro-max-skill, ux-ui-agent-skills, styleseed, oil-ui, unslop, baoyu-design, oh-my-design, awesome-design-skills, interface-skills, mengto-skills, claude-code-frontend-design-toolkit
 - **Creative Direction**: antialgorithm
 - **Graphics / Shaders**: shader-skills
 - **Writing**: no-ai-slop, oh-story-claudecode
