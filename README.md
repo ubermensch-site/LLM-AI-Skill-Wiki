@@ -167,6 +167,8 @@ These were not forked, but were researched directly on GitHub and selected for b
 | 148 | [translate-book](translate-book/) | Translation / Documents | Agent Skill for translating complete PDF, DOCX, EPUB, or Markdown books with parallel sub-agents, glossary control, resumable runs, and validated multi-format output. | [deusyu/translate-book](https://github.com/deusyu/translate-book) | MIT-licensed, with 2.4k+ stars / 280+ forks, baseline tests, manifest validation, and documented Claude Code, Codex, Cursor, and OpenClaw compatibility. |
 | 149 | [claude-code-frontend-design-toolkit](claude-code-frontend-design-toolkit/) | Design & UI/UX | Curated toolkit of frontend design skills, plugins, MCP servers, theming, motion, design-to-code, browser testing, visual feedback, and deployment references. | [wilwaldon/Claude-Code-Frontend-Design-Toolkit](https://github.com/wilwaldon/Claude-Code-Frontend-Design-Toolkit) | Active curated guide with 1.3k+ stars / 150+ forks, 64 entries, 11 sections, and explicit install guidance for official and third-party resources. |
 
+| 150 | [repo-docs-skills](repo-docs-skills/) | Documentation / Knowledge Management | Portable `SKILL.md` workflows that build evidence-backed walkthroughs, code maps, concept modules, references, glossaries, change logs, and sync rules for agent-built repositories. | [YurunChen/repo-docs-skills](https://github.com/YurunChen/repo-docs-skills) | MIT-licensed package from the AI4GC Lab at Zhejiang University with detailed docs, examples, a public validator, and 400+ stars when reviewed. |
+
 ## How this wiki is organized
 
 Each skill has its own folder containing a `README.md` with:
@@ -179,6 +181,7 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 
 ## Categories at a glance
 
+- **Documentation / Knowledge Management**: repo-docs-skills
 - **SEO / GEO**: claude-seo, geo-seo-claude, seo, seo-skills
 - **Marketing**: marketingskills
 - **Product / UX engineering**: product-engineer-skills
@@ -225,3 +228,4 @@ This repo is a personal reference wiki curated from forked repos and vetted GitH
 - **Power Platform development**: power-platform-skills
 - **Sports / Live Data**: sports-skills
 - **Electronics / EDA**: kicad-happy
+
